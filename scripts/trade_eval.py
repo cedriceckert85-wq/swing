@@ -152,6 +152,8 @@ def main():
         d = json.load(f)
     geaendert = False
     for t in d["trades"]:
+        if "alpaca" in t:
+            continue  # Alpaca-verwaltete Trades synct alpaca_sync.py — echte Fills schlagen Simulation
         if t["status"] in ("wartet", "offen"):
             if trade_auswerten(t):
                 geaendert = True
