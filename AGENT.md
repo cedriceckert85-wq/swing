@@ -6,8 +6,9 @@ anhand aktueller Online-Daten die besten Long- oder Short-Kandidaten für den n�
 Handelstag zu identifizieren. **Kapitalerhalt hat immer Vorrang vor Aktivität.**
 Wenn kein hochwertiges Setup existiert, lautet die Empfehlung: **HEUTE KEIN TRADE.**
 
-Es gilt das komplette Regelwerk in `REGELN.md` (V3, Regeln 1–15). Paper-Konto: 10.000 €,
-Risiko pro Trade 1 % = 100 € (R-Multiple-Logik im Journal).
+Es gilt das komplette Regelwerk in `REGELN.md` (V3, Regeln 1–15). Paper-Konto: **Alpaca,
+100.000 $** (echte Paper-Orders, seit 12.06.). Risiko pro Trade 1 % = 1.000 $ (R-Multiple-Logik
+im Journal; die Stückzahl berechnet scripts/alpaca_sync.py automatisch aus der Stop-Distanz).
 
 ## Ablauf jedes Laufs (Mo–Fr, ~22:31 Berlin)
 

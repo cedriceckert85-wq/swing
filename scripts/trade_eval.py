@@ -114,7 +114,7 @@ def trade_auswerten(t):
                 break
         if t["status"] in ("verloren", "gewonnen", "zeit_exit"):
             t["ergebnisR"] = r_multiple(t, t["exitKurs"])
-            t["pnlEur"] = round(t["ergebnisR"] * 100, 2)
+            t["pnlEur"] = round(t["ergebnisR"] * 1000, 2)  # 1R = 1.000 $ (1 % von 100.000)
 
     return geaendert
 

@@ -99,14 +99,14 @@
   <header>
     <h1><span class="gold">◆</span> Elite Swing Trade Agent</h1>
     <p class="sub">
-      Jeden Abend (Mo–Fr): Deep Research → max. 1 Empfehlung für den nächsten Handelstag. Paper-Konto 10.000 €, 1 % Risiko, automatische Auswertung.
+      Jeden Abend (Mo–Fr): Deep Research → max. 1 Empfehlung für den nächsten Handelstag. Alpaca-Paper-Konto 100.000 $, 1 % Risiko (1R = 1.000 $), echte Bracket-Orders.
       <br><a href="https://cedriceckert85-wq.github.io/review/" target="_blank">EPMT-Reviews</a> ·
       <a href="https://cedriceckert85-wq.github.io/review/schatten.html" target="_blank">Schatten-Depot</a>
     </p>
   </header>
 
   <div class="card">
-    <h2>Bilanz <small>R-Multiple: 1R = 100 € Risiko · belastbar ab 30 Trades</small></h2>
+    <h2>Bilanz <small>R-Multiple: 1R = 1.000 $ Risiko · belastbar ab 30 Trades</small></h2>
     <div class="statgrid" id="stats"></div>
     <div id="bremse"></div>
   </div>
@@ -117,7 +117,7 @@
     <h2>Trade-Journal</h2>
     <div class="table-scroll">
       <table class="journal-table">
-        <thead><tr><th>ID</th><th>Datum</th><th>Aktie</th><th>Richtung</th><th>Score</th><th>Entry</th><th>Stop</th><th>Ziel</th><th>Status</th><th>R</th><th>€</th></tr></thead>
+        <thead><tr><th>ID</th><th>Datum</th><th>Aktie</th><th>Richtung</th><th>Score</th><th>Entry</th><th>Stop</th><th>Ziel</th><th>Status</th><th>R</th><th>$</th></tr></thead>
         <tbody id="journal"></tbody>
       </table>
     </div>
@@ -191,7 +191,7 @@ Promise.all([
       <td>${t.score}</td><td>${f2(t.entry)}</td><td>${f2(t.stop)}</td><td>${f2(t.tp)}</td>
       <td><span class="st ${t.status}">${t.status.replace("_", "-")}</span></td>
       <td class="${cls(t.ergebnisR)}">${fR(t.ergebnisR)}</td>
-      <td class="${cls(t.pnlEur)}">${t.pnlEur == null ? "—" : f2(t.pnlEur) + " €"}</td>
+      <td class="${cls(t.pnlEur)}">${t.pnlEur == null ? "—" : f2(t.pnlEur) + " $"}</td>
     </tr>`).join("") || '<tr><td colspan="11" style="color:var(--muted)">Noch keine Trades.</td></tr>';
 }).catch(() => {
   document.getElementById("laeufe").innerHTML = '<div class="card empty">Daten konnten nicht geladen werden.</div>';

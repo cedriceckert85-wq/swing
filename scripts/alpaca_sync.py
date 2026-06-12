@@ -56,11 +56,14 @@ def ist_us(t):
     return "." not in t.get("yahooSymbol", t["ticker"])
 
 
+RISIKO_USD = 1000  # 1 % des 100.000-$-Kontos = 1R
+
+
 def order_anlegen(t):
     risiko = abs(t["entry"] - t["stop"])
-    qty = int(100 // risiko) if risiko > 0 else 0
+    qty = int(RISIKO_USD // risiko) if risiko > 0 else 0
     if qty < 1:
-        t.setdefault("log", []).append("Alpaca: Stop-Distanz zu gross fuer 100$-Risiko, qty<1 -> Yahoo-Simulation")
+        t.setdefault("log", []).append(f"Alpaca: Stop-Distanz zu gross fuer {RISIKO_USD}$-Risiko, qty<1 -> Yahoo-Simulation")
         return False
     seite = "buy" if t["richtung"] == "long" else "sell"
     typ = "limit" if t.get("entryTyp", "stop") == "limit" else "stop"
@@ -126,7 +129,7 @@ def order_sync(t):
                 t.setdefault("log", []).append("Haltedauer erreicht -> Market-on-Open-Exit platziert")
     if t["status"] in ("gewonnen", "verloren", "zeit_exit") and "ergebnisR" not in t:
         t["ergebnisR"] = r_multiple(t, t["exitKurs"])
-        t["pnlEur"] = round(t["ergebnisR"] * 100, 2)
+        t["pnlEur"] = round(t["ergebnisR"] * RISIKO_USD, 2)
 
 
 def main():
