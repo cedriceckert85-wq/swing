@@ -1,4 +1,128 @@
 {
   "naechsterLauf": "Heute Abend, 22:31 Uhr (Mo–Fr)",
-  "laeufe": []
+  "laeufe": [
+    {
+      "datum": "2026-06-12",
+      "zeit": "22:31",
+      "fuerHandelstag": "2026-06-15",
+      "regime": {
+        "richtung": "Trendmarkt",
+        "zustand": "Hohe Volatilität",
+        "begruendung": "S&P 500 (~7.339, Schluss 11.06.) notiert über 50d-MA (7.213) und 200d-MA (6.872) – struktureller Aufwärtstrend intakt. Nach dem Nasdaq-Einbruch vom 05.06. (-4,18%, schlechtester Tag seit April 2025, Auslöser: Chip-Aktien-Sell-off nach Broadcom-Enttäuschung) erholte sich der Markt am 11.06. deutlich (S&P +1,8%, Nasdaq +2,5%; Auslöser: Trump stornierte Militärschläge gegen Iran → Öl-Rückgang → Risk-on). VIX ~20 (erhöht, aber von 29,49 im März rückläufig, Trend positiv). DAX bei 24.210 (+0,06% am 11.06.), europäische Märkte leicht schwächer als USA. Marktbreite verbessert sich (Mid-Cap-Industrials, Healthcare-Innovatoren beteiligen sich mehr), bleibt aber konzentriert in AI/Tech. Geopolitik: Iran/US-Lage bleibt fragil (Raketenangriffe am 07.06., Waffenstillstand mit Bedingungen), Trend aber zur Deeskalation. Mai-CPI +4,2% YoY (erhöht, PPI 11.06. veröffentlicht). Regime unterstützt selektive Long-Trades mit klarem fundamentalem Katalysator."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Hewlett Packard Enterprise",
+          "ticker": "HPE",
+          "yahooSymbol": "HPE",
+          "richtung": "long",
+          "sektor": "Technology / AI Infrastructure",
+          "score": 85,
+          "entry": 45.00,
+          "entryTyp": "limit",
+          "stop": 41.00,
+          "tp": 57.00,
+          "crv": 3.00,
+          "haltezeit": "3-5 Tage",
+          "katalysator": "Record Q2 FY2026 (Earnings 01.06.26, verifiziert ≥2 Quellen): Umsatz +40% YoY auf $10,7 Mrd. (Rekord), EPS $0,79 vs. $0,53 Konsens (+49% Beat), AI-Systembestellungen $1,8 Mrd. FY2026/2027-Guidance angehoben. Danach 5 Tier-1-Analyst-Upgrades (alle verifiziert): Goldman Sachs Buy/PT $79, BofA Securities Buy/PT $80, Loop Capital Upgrade Hold→Buy/PT $75 (12.06.26, HEUTE), Argus Research Buy/PT $70, Barclays Overweight/PT $67. Konsens-Kursziel 23 Analysten: $62,60 vs. Limit-Entry $45,00 = 39% Upside. Wachstumstreiber: AI-Server-Nachfrage, Juniper-Netzwerk-Integration (Synergien).",
+          "risiken": "Post-Earnings-Sell-off: Aktie von $64,25 ATH (02.06.) über $49,87 (09.06.) auf $44,84 (10.06.) = vollständige Reversal der Post-Earnings-Gewinne könnte auf Distribution hindeuten. VIX ~20. Iran/US-Situation bleibt fragil trotz De-Eskalation. Erneuter Chip-Sell-off (wie 05.06.) könnte HPE mitreißen. Nächste strukturelle Unterstützung bei $41,55 (S2).",
+          "bullCase": "Konsens-Kursziel $62,60 (23 Analysten, Goldman bis $79, BofA bis $80) = 39% Upside ab Limit-Entry $45. Gap-Fill am Pre-Earnings-Support ($44,18, Eröffnung 01.06.) zeigt institutionelles Kaufinteresse auf diesem Niveau. Loop Capital kauft HEUTE (12.06.) bei ~$45 mit PT $75 = starkes Überzeugungsupgrade genau am Tief. AI-Server-Boom (Juniper-Integration, AI-Bestellrückstand $1,8 Mrd.) strukturell intakt.",
+          "bearCase": "Vollständiger Reversal aller Post-Earnings-Gewinne (von $64 auf $44) deutet auf mögliche Verteilung smarter Investoren in die Earnings-Reaktion. Chip-Sell-off-Kontagion (05.06.) kann HPE trotz eigener starker Fundamentaldaten belasten. Nächste Supports bei S2 ($41,55) und S3 ($39,71).",
+          "invalidation": "Tagesschluss unter $41,00 (unterhalb S2 $41,55 mit Puffer; Pre-Earnings-Base vollständig aufgegeben). Starke negative Wochenend-Headline (Iran-Eskalation, US-Rezessionssignal)."
+        },
+        {
+          "rang": 2,
+          "aktie": "NVIDIA",
+          "ticker": "NVDA",
+          "yahooSymbol": "NVDA",
+          "richtung": "long",
+          "sektor": "Technology / Semiconductors / AI Hardware",
+          "score": 80,
+          "entry": 168.00,
+          "entryTyp": "limit",
+          "stop": 155.00,
+          "tp": 190.00,
+          "crv": 1.69,
+          "haltezeit": "3-5 Tage",
+          "katalysator": "Dominanter AI-Hardware-Marktführer (GPU-Infrastruktur für Training und Inferenz). Fünf AI-Aktien (darunter NVDA) machen ~50% des S&P-500-YTD-Return von 9,8% aus. Kurs im Bereich $165-170 mit strukturellem Aufwärtstrend. Markt-Recovery am 11.06. (Nasdaq +2,5%) stärkt Sentiment für Tech-Leader. Applied Optoelectronics, Ciena als Datenanbieter signalisieren anhaltend starke AI-Infrastruktur-Nachfrage (Angebot < Nachfrage).",
+          "risiken": "Kein frischer firmenspezifischer Katalysator für die kommende Woche. Broadcom-Enttäuschung belastete Chip-Sektor am 05.06. (-4% Nasdaq) – könnte sich wiederholen. CRV 1,69 nur knapp über Minimum. Ohne spezifischen Katalysator ist das Setup weniger klar als HPE.",
+          "bullCase": "AI-Infrastruktur-Nachfrage übersteigt Angebot strukturell. NVDA als monopolartiger Marktführer profitiert überproportional. Quality-Tech-Long im Trendmarkt nach Sell-off ist statistisch attraktiv.",
+          "bearCase": "Kein Einzelkatalysator für nächste Woche. Bewertung bereits hoch. Wäre bei erneuter Makroverschlechterung besonders anfällig.",
+          "invalidation": "Tagesschluss unter $155. Negativer AI-Nachrichtenfluss oder breiter Makroschock."
+        },
+        {
+          "rang": 3,
+          "aktie": "Knight-Swift Transportation",
+          "ticker": "KNX",
+          "yahooSymbol": "KNX",
+          "richtung": "long",
+          "sektor": "Industrials / Transportation",
+          "score": 75,
+          "entry": 83.00,
+          "entryTyp": "stop",
+          "stop": 75.00,
+          "tp": 95.00,
+          "crv": 1.50,
+          "haltezeit": "5 Tage",
+          "katalysator": "Rate-Upcycle-These im Trucking-Sektor: Frachtraten erholen sich nach langer Baisse. Susquehanna Upgrade Neutral→Positive (02.06.26). Wells Fargo PT-Anhebung $65→$86 (05.06.26). Zacks Consensus-EPS-Schätzung +9,8% in 3 Monaten. Zacks Rank #2 (Buy, 01.06.26). Alle Katalysatoren durch ≥2 unabhängige Quellen verifiziert.",
+          "risiken": "GF Value: 'Overvalued' bei aktuellem Kurs. Rate-Upcycle-These makroabhängig – US-Abschwächung drückt Truck-Volumen. CRV exakt am Minimum (1,50). Limitiertes Upside zum Wells-Fargo-Target ($86), falls Aktie bereits bei $83.",
+          "bullCase": "Trucking Rate-Upcycle historisch mit starker Margenexpansion verbunden. Institutionelle Upgrades von zwei unabhängigen Häusern signalisieren Trendwende. GF Score 82/100 zeigt solide Fundamentals.",
+          "bearCase": "GF Value: overvalued. Zyklisches Geschäft reagiert stark auf Makroverlangsamung. Upside zum WF-Target ($86) begrenzt falls bereits bei $83.",
+          "invalidation": "Schlechte ATA Truck Tonnage-Daten oder US-Rezessionssignale. Kurs unter $75 (key Support)."
+        },
+        {
+          "rang": 4,
+          "aktie": "Guardant Health",
+          "ticker": "GH",
+          "yahooSymbol": "GH",
+          "richtung": "long",
+          "sektor": "Healthcare / Liquid Biopsy / Diagnostics",
+          "score": 70,
+          "entry": 117.00,
+          "entryTyp": "limit",
+          "stop": 103.00,
+          "tp": 145.00,
+          "crv": 2.00,
+          "haltezeit": "5 Tage",
+          "katalysator": "American Cancer Society nimmt FDA-approbierten Shield-Bluttest in Kolorektalkarzinom-Screening-Leitlinien auf (strukturell höheres Volumen ab 2026). Evercore ISI Upgrade In-line→Outperform, PT $95→$160 (02.06.26). Wolfe Research PT $150 (02.06.26). Revenue FY2026E $982M. Kurs +16,8% nach Guidance-Anhebung auf erhöhtes Umsatzziel.",
+          "risiken": "Negative Fundamentaldaten: anhaltende Verluste, negativer Cashflow, Leverage/negatives Eigenkapital. Valuations-Rank 1/10 = fundamental teuer. Insider-Aktienverkäufe (hohes Volumen, Juni 2026, TipRanks) sind klares Warnsignal. Score 70 – an Handelsschwelle, kein Trade empfohlen.",
+          "bullCase": "ACS-Leitlinien-Aufnahme ist Meilenstein mit langjähriger Adoptionskurve (nicht vollständig eingepreist laut BTIG). Evercore PT $160 = 37% Upside bei $117. Drei verifizierte Produkte (G360, Reveal, Shield) mit klarem Preissetzungspotenzial.",
+          "bearCase": "Insider-Verkäufe bei hohem Kursniveau sind Distribution-Signal. Bewertung aggressiv bei fehlender Profitabilität. Einzelkatalysator (ACS-Aufnahme) könnte vollständig eingepreist sein.",
+          "invalidation": "Weitere Insider-Verkäufe >$5 Mio. in einer Woche. Enttäuschende Shield-Adoptionsdaten. Kurs unter $103."
+        },
+        {
+          "rang": 5,
+          "aktie": "SAP SE",
+          "ticker": "SAP",
+          "yahooSymbol": "SAP.DE",
+          "richtung": "short",
+          "sektor": "Technology / Enterprise Software (DAX)",
+          "score": 60,
+          "entry": 225.00,
+          "entryTyp": "stop",
+          "stop": 240.00,
+          "tp": 198.00,
+          "crv": 1.80,
+          "haltezeit": "3-5 Tage",
+          "katalysator": "SAP -6,53% am 11.06.26 – größter DAX-Verlierer. Ursache: Oracle-Kurssturz nach enttäuschenden Post-Earnings-Ausgabenplänen → Sektor-Kontagion in Enterprise Software. Technischer Bruch aus Widerstandszone. Relative Schwäche vs. DAX (+0,06% vs. SAP -6,53%) signifikant.",
+          "risiken": "Score 60 – unter Handelsschwelle (70), daher kein Trade. Kein SAP-spezifischer negativer Katalysator verifiziert (nur Oracle-Kontagion). SAP hat starke eigene AI-Transformation (RISE with SAP). Sell-off könnte Überreaktion sein.",
+          "bullCase": "SAP AI-Transformation (RISE with SAP) strukturell intakt. Sell-off durch externe Oracle-Kontagion, nicht durch SAP-eigene Fundamentals = Erholungspotenzial.",
+          "bearCase": "Enterprise-Software-Ausgaben könnten strukturell unter Druck geraten. Oracle-Enttäuschung signalisiert breite Branchenschwäche. Momentum klar negativ.",
+          "invalidation": "Rückeroberung €240-Zone. SAP-eigene positive Nachrichten (Großauftrag, Guidance-Anhebung). Score zu niedrig für Trade."
+        }
+      ],
+      "empfehlung": {
+        "trade": true,
+        "tradeId": "T-001",
+        "begruendung": "HPE (Rang 1) erfüllt alle Pflichtkriterien: Score 85 (≥80 erfüllt), fondsUrteil eindeutig JA. Limitauftrag bei $45,00 schützt gegen Montags-Gap-Down – Einstieg nur bei Rückkehr zum Pre-Earnings-Support. CRV 3,0 (weit über Mindestwert 1,5). Blowout-Earnings (40% Umsatzwachstum, 49% EPS-Beat, Guidance angehoben) plus 5 Tier-1-Upgrades von Goldman, BofA, Loop Capital (HEUTE bei $45 = PT $75), Argus und Barclays liefern außergewöhnliche fundamentale Rückendeckung. Max-Verlust: 1R = $4,00 × 25 Aktien = $100 (~€91). Iran-De-Eskalation am 11.06. reduziert Wochenend-Risiko. Alle übrigen Kandidaten: NVDA Score 80 (kein frischer Katalysator → kein eindeutiges Fonds-JA), KNX Score 75 (unter 80), GH Score 70 (Insider-Verkäufe), SAP Score 60 (unter Handelsschwelle).",
+        "abschluss": {
+          "vorteil": "Außergewöhnlicher fundamentaler Rückenwind (Konsens $62,60 = 39% Upside, 5 Tier-1-Upgrades) kombiniert mit technischem Einstieg am Pre-Earnings-Support. Limit-Order garantiert keinen Einstieg bei Gap-Up (Kapitalerhalt). Institutioneller Kaufdruck durch frische Upgrades sogar heute (12.06.).",
+          "scheitern": "Erneuter AI-/Chip-Sell-off (wie 05.06.) könnte HPE trotz exzellenter Earnings unter $41 drücken. Fragile Iran/Israel-Lage könnte über das Wochenende eskalieren und die Marktstimmung am Montag kippen.",
+          "sofortUngueltig": "Tagesschluss Montag unter $41,00 (S2-Bruch). Starke negative Wochenend-Schlagzeile zu Iran (Eskalation) oder US-Makro (Rezessionsschock/Flash-Crash).",
+          "fondsUrteil": "JA"
+        }
+      }
+    }
+  ]
 }
