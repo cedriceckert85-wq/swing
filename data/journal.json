@@ -1,0 +1,18 @@
+{
+  "konto": { "start": 10000, "risikoProTradeEur": 100, "hinweis": "Paper-Trading. R-Multiple-Logik: 1R = 100 EUR Risiko, Positionsgroesse folgt aus der Stop-Distanz." },
+  "statistik": {
+    "trades": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "verfallen": 0,
+    "offen": 0,
+    "trefferquote": null,
+    "summeR": 0,
+    "erwartungswertR": null,
+    "profitFactor": null,
+    "aktuelleVerlustserie": 0,
+    "groessteVerlustserie": 0,
+    "bremseAktiv": false
+  },
+  "trades": []
+}

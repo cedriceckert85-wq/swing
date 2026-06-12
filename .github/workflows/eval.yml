@@ -1,0 +1,41 @@
+name: Trade-Auswertung
+
+on:
+  schedule:
+    # Mo-Fr 20:11 UTC = 22:11 Berlin (Sommer) — nach US-Boersenschluss,
+    # VOR dem Agenten-Lauf um 22:31, damit der Agent ausgewertete Trades vorfindet.
+    - cron: '11 20 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trade-eval
+  cancel-in-progress: false
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offene Trades auswerten
+        run: python scripts/trade_eval.py
+      - name: Commit & Push (nur bei Änderung)
+        run: |
+          if git diff --quiet data/journal.json; then
+            echo "Keine Änderung."
+            exit 0
+          fi
+          git config user.name "eval-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/journal.json
+          git commit -m "Trade-Auswertung $(TZ=Europe/Berlin date +%d.%m.%Y)"
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase
+          done
+          exit 1
