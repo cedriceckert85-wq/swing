@@ -123,6 +123,129 @@
           "fondsUrteil": "JA"
         }
       }
+    },
+    {
+      "datum": "2026-06-13",
+      "zeit": "22:31",
+      "fuerHandelstag": "2026-06-16",
+      "regime": {
+        "richtung": "Trendmarkt",
+        "zustand": "Hohe Volatilität",
+        "begruendung": "S&P 500 bei 7.394 (11.06.26), über 50d-MA 7.213 und 200d-MA 6.872 – struktureller Aufwärtstrend intakt. Positive Wochenbilanz: Iran-Waffenstillstandshoffnungen (Trump pausiert Militärschläge) treiben Risk-on, Öl auf ~$85/Barrel (-2% auf Wochenbasis). EU Stoxx 50 bei 6.154 (+4,97% in 4 Wochen, Jahreshoch), ASML +0,8%, LVMH +3,3%, Siemens +2%. VIX bei 19,25 (12.06.) – abwärts von 30 (März), aber noch nicht normalisiert (<15). KRITISCHER MAKROFAKTOR: FOMC-Sitzung 16.–17.06.2026, Zinsentscheid Mittwoch 17.06. (99,4% Hold bei 3,50–3,75%). Neuer Fed-Vorsitzender Kevin Warsh (seit 15.05.26) gilt als ausgeprägte Falke. Mai-CPI +4,2% YoY (3-Jahres-Hoch, Kerninflation 2,9%), Energiepreise +23,5% YoY (Iran-Krieg). Dezember-Zinserhöhungswahrscheinlichkeit auf ~30% gestiegen. BoJ-Entscheidung ebenfalls 16.06. Parallele Zentralbankereignisse (Fed + BoJ) auf gleicher Woche = erhöhte Gesamtunsicherheit. ECB erste Zinserhöhung in 3 Jahren (Juni 2026). Regime bleibt Long-freundlich fundamental, aber binäres FOMC-Ereignis direkt nach Trade-Eröffnung (Einstieg Di, Entscheid Mi) erhöht Gap-Risiko auf kritisches Niveau."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Advanced Micro Devices",
+          "ticker": "AMD",
+          "yahooSymbol": "AMD",
+          "richtung": "long",
+          "sektor": "Technology / Semiconductors / AI Hardware",
+          "score": 80,
+          "entry": 516.00,
+          "entryTyp": "stop",
+          "stop": 492.00,
+          "tp": 560.00,
+          "crv": 1.83,
+          "haltezeit": "3-5 Tage",
+          "katalysator": "Meta Platforms CFO bestätigte 6-GW 4-Jahres-Liefervertrag für AMD MI450 GPUs inkl. 160-Mio.-Aktien-Warrant (Konferenz 02.06.26, ≥2 Quellen verifiziert: StocksToTrade, TiKR). Citi-Analyst Atif Malik Upgrade mit PT $460→$575 (12.06.26). BofA Vivek Arya PT $500→$560. CFRA Strong Buy PT $600. Mizuho PT $615. Q1 2026: Umsatz $10,25 Mrd. +38% YoY, Data Center Rekord $5,8 Mrd. +57% YoY, x86-Server-CPU-Anteil 46,2% (Allzeithoch). Aktie +4,6% am 12.06. auf $514,88. Konsensus: 4 unabhängige Tier-1-Analysten mit Targets $560–$615 (9–20% Upside).",
+          "risiken": "FOMC 17.06.: Hawkisher Warsh-Kommentar bei 4,2% CPI kann High-Multiple-Tech 5–10% in den Gap drücken – Stop $492 nicht gegen Gap-Through geschützt. Aktie +130% YTD = Spätzykluseinstieg. Technisches Verkaufssignal am 03.06. (Pivot Top), gerade erst durch Citi-Upgrade überwunden. Dezember-Zinserhöhungswahrscheinlichkeit 30% steigend.",
+          "bullCase": "Meta 6-GW-Vertrag ist ein LOCKED CONTRACT (nicht Spekulation) – gibt AMD einzigartigen Umsatz-Floor unabhängig vom Makro. Vier unabhängige Tier-1-Analysten mit frischen Targets $560–$615 vs. $514 = strukturelles Near-Term-Upside. Data Center Q2 2026 dürfte durch Meta-Hochlauf erneut Rekord brechen.",
+          "bearCase": "FOMC Gap-Risiko: Warsh mit 4,2% CPI könnte expliziten Zinserhöhungssignal geben → High-Multiple-Tech Gap-Down 5–10%. +130% YTD erhöht Gewinnmitnahme-Sensitivität. Trade-Eröffnung Di 16.06., FOMC-Entscheid Mi 17.06. = nur 24h Puffer.",
+          "invalidation": "Tagesschluss unter $492 (unter Breakout-Basis vom 12.06.). Warsh sendet am 17.06. explizites Zinserhöhungssignal. Negativer AMD-Katalysator (Meta-Deal-Verschiebung, Produktionsprobleme MI450)."
+        },
+        {
+          "rang": 2,
+          "aktie": "NVIDIA",
+          "ticker": "NVDA",
+          "yahooSymbol": "NVDA",
+          "richtung": "long",
+          "sektor": "Technology / Semiconductors / AI Hardware",
+          "score": 80,
+          "entry": 208.00,
+          "entryTyp": "stop",
+          "stop": 190.00,
+          "tp": 242.00,
+          "crv": 1.89,
+          "haltezeit": "3-5 Tage",
+          "katalysator": "Q1 FY2027 (20.05.26, CNBC/Investing.com verifiziert): Umsatz $81,6 Mrd. +85% YoY, EPS $1,87 vs. $1,77 Konsens (+6% Beat), Data Center $75 Mrd. +92% YoY, FCF $49 Mrd. (Rekord). 62 Analysten: Durchschnitts-PT $298,42 = 45% Upside. Strong Buy Konsens. Aktie konsolidierte von Post-Earnings-Hoch $223 auf $205 (50d-MA $205,01) = klassischer Rücktest-Support. Neue Vera-CPU eröffnet '$200-Mrd.-Markt' (Mgmt.-Zitat).",
+          "risiken": "Benzinga-Artikel aktiv: 'Nvidia Slips, Macro Rate Fears Clash With CEO Infrastructure Plan' – Makrozinsangst belastet konkret. Gleiche FOMC-Gap-Risiko wie AMD. RSI nach +18%-Post-Earnings-Rally in überkauftem Territorium, 20d-MA ($218) weit über Kurs = schwache kurzfristige Momentum-Struktur.",
+          "bullCase": "50d-MA $205,01 = exakter aktueller Kurs = klassischer Rücktest-Support nach Breakout. Blowout Q1 FY2027 (+85% Revenue) gibt starken Fundamental-Floor. $298 Konsens-PT = massive mittelfristige Upside. AI-Capex-Boom: Meta $145 Mrd., Microsoft $190 Mrd. (direkte NVDA-Kunden).",
+          "bearCase": "Makrozinsangst ist aktives laufendes Narrativ das NVDA konkret belastet. Warsh-Statement bei 4,2% CPI = hawkishe Überraschungsgefahr. Test $194–195 Support bei schlechtem FOMC.",
+          "invalidation": "Tagesschluss unter $190 (200d-MA $188,91 unterschritten). Hawkisher FOMC-Kommentar. Zweiter Chip-Sektor-Sell-off analog 05.06."
+        },
+        {
+          "rang": 3,
+          "aktie": "Meta Platforms",
+          "ticker": "META",
+          "yahooSymbol": "META",
+          "richtung": "long",
+          "sektor": "Technology / Social Media / AI Infrastructure",
+          "score": 70,
+          "entry": 565.00,
+          "entryTyp": "limit",
+          "stop": 535.00,
+          "tp": 615.00,
+          "crv": 1.67,
+          "haltezeit": "5 Tage",
+          "katalysator": "AMD 6-GW-Liefervertrag für MI450 GPUs (niedrigere TCO als Nvidia, verifiziert 02.06.26). FY2026-CapEx-Guidance $125–$145 Mrd. (Fortune/Benzinga verifiziert). 56 Analysten: Konsens-PT $840 = 49% Upside ab $564. Starke AI-Monetarisierungsdaten Q1 FY2026. Struktureller Wettbewerbsvorteil durch diversifizierte AI-Chip-Lieferkette.",
+          "risiken": "Kein frischer Wochenkatalysator (AMD-Deal 14 Tage alt). CapEx $145 Mrd. = ROI-Unsicherheit. FOMC-Risiko für High-Multiple-Tech. Score 70 – kein Trade nach Regelwerk.",
+          "bullCase": "AI-Monetarisierung von 3 Mrd. Nutzern. AMD-Deal senkt AI-Infrastrukturkosten strukturell. Konsens-PT $840 = erhebliche Unterbewertung. Starker FCF und Aktienrückkäufe als Kurspuffer.",
+          "bearCase": "Kein frischer Wochenkatalysator. CapEx-Sorge ROI-unklar. FOMC kann Tech breit belasten. Score 70 → kein Trade.",
+          "invalidation": "Tagesschluss unter $535. Hawkischer FOMC-Shock. Negative Guidance-Warnung zu AI-ROI."
+        },
+        {
+          "rang": 4,
+          "aktie": "Eli Lilly",
+          "ticker": "LLY",
+          "yahooSymbol": "LLY",
+          "richtung": "long",
+          "sektor": "Healthcare / Pharmaceuticals / GLP-1",
+          "score": 65,
+          "entry": 1135.00,
+          "entryTyp": "limit",
+          "stop": 1075.00,
+          "tp": 1221.00,
+          "crv": 1.43,
+          "haltezeit": "5 Tage",
+          "katalysator": "GLP-1-Produktpipeline: Retatrutide Phase-3-Daten (Obesity, Anfang Juni 26, ≥2 Quellen). Orales GLP-1 Foundayo FDA-approved. Orforglipron Phase-3-Readout erwartet H2 2026. +17,28% in 30 Tagen. 30 Analysten: Moderate Buy, Konsens-PT $1.221 (Spanne $1.221–$1.350). Defensive Healthcare-Sektorpositionierung ideal für FOMC-Woche.",
+          "risiken": "CRV 1,43 UNTER Mindestschwelle 1,5 → Setup nach Rule 4 NICHT handelbar. Kurs $1.134 vs. Konsens-PT $1.221 = nur 7,6% Upside zu eng für saubere Marktstruktur-Stop. Kein spezifischer Katalysator in Woche 16.06.",
+          "bullCase": "FDA-Orforglipron-Entscheidung als ausstehender Katalysator. Defensiver Healthcare-Charakter = weniger FOMC-sensitiv als Tech. +17% Momentum mit institutionellem Rückenwind.",
+          "bearCase": "CRV unter Mindestschwelle macht Setup nach Regelwerk unhandelbar. Kurs nahe 12-Monats-PT = begrenztes kurzfristiges Upside. Score 65.",
+          "invalidation": "Tagesschluss unter $1.075. Negative FDA-Kommunikation zu GLP-1-Pipeline. Score 65 – CRV-Regelverstoß verhindert Trade."
+        },
+        {
+          "rang": 5,
+          "aktie": "ASML Holding",
+          "ticker": "ASML",
+          "yahooSymbol": "ASML.AS",
+          "richtung": "long",
+          "sektor": "Technology / Semiconductor Equipment (Amsterdam)",
+          "score": 65,
+          "entry": 1510.00,
+          "entryTyp": "limit",
+          "stop": 1435.00,
+          "tp": 1700.00,
+          "crv": 2.53,
+          "haltezeit": "5 Tage",
+          "katalysator": "EUV-Lithographie-Monopol für Advanced AI Chips. Q1 2026: Umsatz €8,8 Mrd., Nettogewinn €2,8 Mrd. 2026-Guidance €36–€40 Mrd. (angehoben). Goldman Sachs PT €1.600, BofA €1.921, Barclays €1.900, JPMorgan €1.900 (alle verifiziert). +35% YTD, Europas wertvollste Aktie. EU Stoxx 50 auf Jahreshoch 6.154.",
+          "risiken": "Kurs ~€1.505 nahe Goldman-PT €1.600 = nur 6,3% Upside zu nächstem Konsens-Ziel. TP €1.700 in 5 Tagen unrealistisch (übertrifft Goldman-12-Monats-Ziel). Kein frischer Wochenkatalysator. US-FOMC überträgt Sentiment auf europäische Tech.",
+          "bullCase": "BofA/Barclays €1.900 = 26% Langfrist-Upside strukturell. EUV-Monopol mit AI-bedingtem Nachfrageboom. ECB-Zinserhöhung stützt EUR.",
+          "bearCase": "TP €1.700 in 5 Tagen unrealistisch. Keine frischen Wochennachrichten. Score 65.",
+          "invalidation": "Tagesschluss unter €1.435. Negativer AI-Tech-Sentiment-Übertrag von US-FOMC."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE – trotz AMD Score 80 kein eindeutiges Fonds-JA aufgrund kritischer FOMC-Timing-Kollision. AMD (Rang 1, Score 80) hat den stärksten Katalysator der Woche (Meta 6-GW-Locked-Contract + Citi-Upgrade $575 vom 12.06., CRV 1,83) und wäre unter normalen Bedingungen als T-002 empfehlenswert. JEDOCH: Fonds-Urteil bleibt NEIN, weil (1) Handelseröffnung Di 16.06. mit FOMC-Entscheidung bereits Mi 17.06. = nur 24h Puffer vor binärem Ereignis; (2) Neuer Fed-Vorsitzender Kevin Warsh (seit 15.05.26, bekannter Falke) + Mai-CPI +4,2% YoY (3-Jahres-Hoch) = hawkishe Statement-Überraschung wahrscheinlicher als eingepreist; (3) Dezember-Zinserhöhungswahrscheinlichkeit auf ~30% gestiegen; (4) Gap-Risiko durch Stop $492 bei schlechtem FOMC nicht kontrollierbar, verletzt max. 1%-Verlust-Regel (Rule 10). NVDA (Rang 2, Score 80): Gleiches FOMC-Gap-Risiko, zusätzlich aktives 'Macro Rate Fears'-Narrativ gegen NVDA (Benzinga 12.06.). META (Rang 3, Score 70): Kein frischer Wochenkatalysator, unter Handelsschwelle. LLY (Rang 4, Score 65): CRV 1,43 unter Mindestschwelle 1,5 nach Rule 4. ASML (Rang 5, Score 65): TP €1.700 in 5 Tagen unrealistisch. T-001 HPE (Limit $45, Kurs $46,80 am 12.06.): Limit-Order aktiv – bei Rückfall auf $45 automatisch ausgeführt. FOMC-Strategie: Nach Warsh-Statement Mi 17.06. 14:00 ET neu evaluieren. Bei neutralem/dovishem Kommentar → AMD T-002 Stop-Buy $516 für Do/Fr-Einstieg prüfen.",
+        "abschluss": {
+          "vorteil": "Kapitalschutz: Kein Exposure durch binäres FOMC-Ereignis 24h nach Eröffnung. AMD-Setup bleibt intakt und kann nach FOMC-Klärung (Do 18.06.) ohne Gap-Risiko neu bewertet werden. T-001 HPE arbeitet weiterhin ohne neues Kapitalrisiko.",
+          "scheitern": "Warsh hält sich trotz 4,2% CPI neutral oder mäßig → AMD läuft Richtung $560 ohne unsere Position. Vollständige Iran-Friedenseinigung → Öl unter $80 → breites Risk-on hebt alle Tech-Positionen.",
+          "sofortUngueltig": "Warsh-Statement Mi 17.06. zeigt keine expliziten Zinserhöhungssignale für 2026 und Märkte reagieren positiv → AMD T-002 für Donnerstag 18.06. neu auswerten (Stop-Buy $516, Stop $492, TP $560, CRV 1,83). Alternativ: HPE fällt auf $45 → T-001 automatisch aktiv.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
