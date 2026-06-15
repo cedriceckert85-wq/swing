@@ -246,6 +246,129 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-15",
+      "zeit": "23:07",
+      "fuerHandelstag": "2026-06-16",
+      "regime": {
+        "richtung": "Trendmarkt",
+        "zustand": "News-getrieben / erhöhte Volatilität",
+        "begruendung": "Montag 15.06.26 war ein news-getriebener Risk-on-Spike: S&P 500 +1,65% auf 7.554,29, Nasdaq +3,07% auf 26.683,94 (bester Tag seit 31.03.), Dow +0,92% auf 51.671 (Allzeithoch). Treiber: US-Iran-Friedensrahmen (Wiederöffnung Straße von Hormuz) + SpaceX-IPO-Euphorie (+20% nach +19% Debüt Fr). S&P über 50d- und 200d-MA → struktureller Aufwärtstrend intakt. VIX ~17,68 (rückläufig, aber noch nicht <15 normalisiert). Öl fiel -4,8% auf $80,75 (Brent -4,7% $83,17, Tief seit März) → Energie unter Druck, Tech/AI führend. KRITISCHER FAKTOR: FOMC-Entscheid Mi 17.06. 14:00 ET, Warshs erste Sitzung als Fed-Chef. Hold zu 99,4% erwartet (3,50–3,75%), aber Risiko Forward-Guidance-/Dot-Plot-Streichung und ~70% Hike-Wahrscheinlichkeit bis Jahresende (CME FedWatch). Mai-CPI +4,2% YoY. Halbleiter zeigten am 05.06. SOXX -10% ($1,3 Bio.). Regime bleibt long-freundlich, aber ein Dienstag-Einstieg läuft mit nur ~24h Puffer in ein binäres Makro-Ereignis und würde einen news-getriebenen Ein-Tages-Spike nachjagen."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "NVIDIA",
+          "ticker": "NVDA",
+          "yahooSymbol": "NVDA",
+          "richtung": "long",
+          "sektor": "Halbleiter/AI",
+          "score": 60,
+          "entry": 213.0,
+          "entryTyp": "stop",
+          "stop": 200.0,
+          "tp": 235.0,
+          "crv": 1.69,
+          "haltezeit": "2-5 Tage",
+          "katalysator": "Strong-Buy-Konsens (38 Analysten, Stand 14.06.26); Blackwell-H2-Auslieferung + Vera-Rubin-Roadmap; Huang nannte auf GTC 2026 ~$1 Bio. Blackwell/Rubin-Orders bis '27. Kursziele bis $325 (Jahresende), Konsens ~$267.",
+          "risiken": "Kursniveaus indikativ (Quellen uneinheitlich, ~$205 am 13.06. + Montags-Rally); Mega-Cap = volle FOMC-Indexkorrelation; Halbleiter fragil nach SOXX -10% am 05.06.",
+          "bullCase": "Intakter AI-Capex-Zyklus, Blackwell/Rubin-Auftragsbestand, Strong-Buy; breites Risk-on nach Iran-Deal.",
+          "bearCase": "Nach +3,07%-Nasdaq-Tag (news-getrieben) Mean-Reversion-Gefahr; hawkisher FOMC 17.06. trifft zinssensitive Mega-Cap-Tech am härtesten.",
+          "invalidation": "Tagesschluss unter $200 / erneuter Halbleiter-Sell-off wie 05.06. / hawkishe FOMC-Überraschung 17.06."
+        },
+        {
+          "rang": 2,
+          "aktie": "Advanced Micro Devices",
+          "ticker": "AMD",
+          "yahooSymbol": "AMD",
+          "richtung": "long",
+          "sektor": "Halbleiter/AI",
+          "score": 60,
+          "entry": 510.0,
+          "entryTyp": "stop",
+          "stop": 466.0,
+          "tp": 575.0,
+          "crv": 1.48,
+          "haltezeit": "2-5 Tage",
+          "katalysator": "Citigroup PT $575 (12.06.26); MEXT-Übernahme (AI-Memory); +130% YTD = Sektor-Momentum-Leader; Nasdaq-Rebound.",
+          "risiken": "~84x Forward-KGV (vs. NVDA ~25x) = teuer; Quellen-Niveaus stark widersprüchlich ($278/$466/$509); CRV 1,48 < Mindest 1,5 (Regel 4); -10,86% am 05.06. zeigt Fragilität.",
+          "bullCase": "Sektorführer-Momentum, MEXT erweitert AI-Memory-Stack, frisches Tier-1-Upgrade.",
+          "bearCase": "Extreme Bewertung + extended nach scharfer Erholung; FOMC-Gap-Risiko; Stop läge im FOMC-Rausch.",
+          "invalidation": "Rückfall unter $466 (05.06.-Tief) / hawkisher FOMC / Halbleiter-Risk-off."
+        },
+        {
+          "rang": 3,
+          "aktie": "Meta Platforms",
+          "ticker": "META",
+          "yahooSymbol": "META",
+          "richtung": "long",
+          "sektor": "Kommunikation/AI",
+          "score": 40,
+          "entry": null,
+          "entryTyp": "stop",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "2-5 Tage",
+          "katalysator": "Rollout neuer KI-Funktionen auf Facebook (15.06.) — inkrementell/weich, kein harter verifizierter Katalysator nach Regel 8.",
+          "risiken": "Kein frischer, durch 2 Quellen verifizierter Wochenkatalysator; unter Handelsschwelle 70 → keine strukturbasierten Niveaus erhoben.",
+          "bullCase": "Teil der Tech-Stärke, KI-Monetarisierungsfantasie.",
+          "bearCase": "Produkt-PR statt Katalysator; FOMC-Risiko; news-getriebener Spike.",
+          "invalidation": "Hawkisher FOMC / breiter Tech-Rücksetzer."
+        },
+        {
+          "rang": 4,
+          "aktie": "Exxon Mobil",
+          "ticker": "XOM",
+          "yahooSymbol": "XOM",
+          "richtung": "short",
+          "sektor": "Energie",
+          "score": 30,
+          "entry": null,
+          "entryTyp": "stop",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "2-5 Tage",
+          "katalysator": "Öl -4,8% auf $80,75 (Brent -4,7% $83,17, Tief seit März) nach US-Iran-Deal/Hormuz-Öffnung; Goldman senkt Brent-Prognose (2027 $80, Abwärtsrisiko $70/$60).",
+          "risiken": "Short gegen starkes Risk-on-Tape = gegen Regime; Energie bereits Montag stark gefallen → Nachjagen; Analystenwarnung 'risky rather than cheap'.",
+          "bullCase": "Angebotsnormalisierung nach Friedensdeal drückt Öl weiter → Energie-Margendruck (These für Short).",
+          "bearCase": "Überverkauft → technische Gegenbewegung; OPEC+-Reaktion; Deal-Scheitern → Öl-Spike zurück.",
+          "invalidation": "Öl zurück über $88 / Deal-Scheitern / relative Stärke Energie."
+        },
+        {
+          "rang": 5,
+          "aktie": "Target",
+          "ticker": "TGT",
+          "yahooSymbol": "TGT",
+          "richtung": "long",
+          "sektor": "Einzelhandel",
+          "score": 20,
+          "entry": null,
+          "entryTyp": "stop",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "2-5 Tage",
+          "katalysator": "Earnings Di 16.06. (= Einstiegstag selbst); FY26-Guidance am 20.05. angehoben (Umsatz ~+4%, EPS $7,50–8,50) — aber >24h alt (Regel 8).",
+          "risiken": "Earnings am Einstiegstag = binäres Event PLUS FOMC Mi = doppeltes Ereignisrisiko; Q1-EPS $1,71 < Vorjahr $2,27 (schwächere Tendenz).",
+          "bullCase": "Guidance-Anhebung + Margenexpansion könnten positiv überraschen.",
+          "bearCase": "Earnings-Reaktion unkalkulierbar; Trade ins Earnings = Gamble, kein Setup.",
+          "invalidation": "Jede negative Earnings-Reaktion 16.06."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE für Handelstag Di 16.06.2026. (1) Kein Setup erreicht Score ≥80 — beste Kandidaten NVDA/AMD je 60, unter der Handelsschwelle 70 und weit unter der Trade-Schwelle 80. (2) Timing/Chasing: Montag 15.06. war ein news-getriebener Risk-on-Spike (S&P +1,65% auf 7.554, Nasdaq +3,07% bester Tag seit 31.03., Dow-Rekord) durch US-Iran-Friedensrahmen + SpaceX-IPO-Euphorie — ein Long am Di wäre Nachjagen eines Ein-Tages-Spikes mit Mean-Reversion-Risiko. (3) Binäres Makro-Ereignis: FOMC-Entscheid Mi 17.06. 14:00 ET (Warshs erste Sitzung). Hold zu 99,4% erwartet, ABER Risiko Forward-Guidance-/Dot-Plot-Streichung + ~70% Hike bis Jahresende. Ein Di-Einstieg läuft mit ~24h Puffer ins Ereignis; strukturbasierte Stops lägen im FOMC-Gap-Rausch → Regel 9 (binäres Event im Haltefenster) und Regel 10 (1%-Verlust nicht kontrollierbar) verletzt. (4) T-001 HPE ist bereits offen (Limit $45, Auswertung via trade_eval.py) — kein Bedarf, vor einem binären Makro-Event zusätzliches Risiko aufzubauen (Overtrading-Disziplin). Diese Einschätzung bestätigt den Lauf vom 13.06. (gleicher FOMC-Konflikt) und ergänzt ihn um den NEUEN Faktor des Montags-Risk-on-Spikes (Chasing-Risiko) — keine Wiederholung ohne neue Begründung. Re-Evaluation nach FOMC-Statement Mi 17.06. für gap-freie Einstiege Do/Fr 18.–19.06. Kapitalerhalt vor Aktivität (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kapitalschutz: kein Exposure in das binäre FOMC-Ereignis 17.06. Die Momentum-Setups (NVDA/AMD) bleiben nach FOMC-Klärung ohne Gap-Risiko neu bewertbar; T-001 HPE arbeitet ohne neues Kapitalrisiko weiter.",
+          "scheitern": "Fällt der FOMC neutral/dovish aus und das Risk-on-Momentum hält, laufen NVDA/AMD ohne uns Richtung Kursziele — entgangener Gewinn, aber kein Kapitalverlust.",
+          "sofortUngueltig": "FOMC-Statement 17.06. mit hawkisher Überraschung (Guidance-/Dot-Plot-Streichung, Hike-Signal) → Tech-Sell-off; erneuter Halbleiter-Sell-off wie 05.06. (SOXX -10%); Scheitern des US-Iran-Deals → Öl-Spike zurück.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }

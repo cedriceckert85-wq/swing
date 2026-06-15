@@ -1,2 +1,5 @@
 ﻿__pycache__/
 *.pyc
+
+# Claude Code lokale Session-Daten (Crons/Settings) nicht versionieren
+.claude/
