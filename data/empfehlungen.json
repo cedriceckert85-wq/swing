@@ -498,6 +498,114 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-16",
+      "zeit": "22:31",
+      "fuerHandelstag": "2026-06-17",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "news",
+        "begruendung": "Regulärer 22:31-MR-Lauf für Handelstag Mi 17.06. Dienstag 16.06. war ein ROTATIONS-Tag: Dow +0,64% auf REKORD 51.999,67 (Zykliker), aber S&P 500 −0,57% (7.511,35) und Nasdaq −1,15% (26.376,34) — Rotation aus Halbleitern in Zykliker bei fallendem Öl und Pre-FOMC-Positionierung. S&P weiterhin über 200-SMA (~6.887) → struktureller Aufwärtstrend, S&P-RSI ~60 (nicht überdehnt), VIX niedrig. Für MR ungünstig: kein ruhiger Range-Markt, sondern event-getriebene Rotation unmittelbar vor dem FOMC. BINÄRES EVENT IN DER MORGIGEN SESSION: FOMC-Entscheid Mi 17.06. 14:00 ET (erste Warsh-Sitzung, hawkisher Bias-Shift/Hike-Risiko, Hold ~89% erwartet). Quellen <24h: TheStreet/Yahoo/CNBC (Indizes+Chip-Selloff 16.06.), tradingkey/Yahoo (AMD), Investing/Benzinga (MU), Yahoo/StockStory (FOX-Roku), IndexBox/Polymarket (FOMC)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Fox Corporation",
+          "ticker": "FOX",
+          "yahooSymbol": "FOX",
+          "richtung": "long",
+          "sektor": "Medien",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~25 (Screener), Kurs $51,54 auf 52-Wochen-Tief, -30% YTD. HARTER KATALYSATOR: $22-Mrd-Übernahme von Roku (28-34% Prämie, ~$8,3 Mrd Neuschulden, Aktien-Verwässerung) → -16,9% Mo + -5,3% Di. Struktureller Regimewechsel, kein Sentiment-Dip.",
+          "bullCase": "Tief überverkauft auf 52-Wochen-Tief; theoretische Reversion.",
+          "bearCase": "Großakquisition mit Verwässerung + Schuldenlast = fundamentaler Bruch (Regel 3+8 → faden verboten); zudem unter 200-SMA → Trend-Filter verbietet Long.",
+          "invalidation": "Bereits invalide: harter M&A-Katalysator hinter dem Extrem, fallendes Messer."
+        },
+        {
+          "rang": 2,
+          "aktie": "Micron Technology",
+          "ticker": "MU",
+          "yahooSymbol": "MU",
+          "richtung": "long",
+          "sektor": "Halbleiter",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "—"},
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Kurs ~$1.057, -6,7% unter Tageshoch $1.133 nach Chip-Rotation. KEIN statistisches Extrem (nahe Hoch, nicht auf Oversold-Liste). Überhänge: Memory-Glut-Sorgen, Broadcom-Guidance; Raymond James PT $1.100 Outperform. Earnings 24.06.",
+          "bullCase": "Rotation (Sentiment), kein Firmenbruch; AI-Memory-Nachfrage stützt; über 200-SMA.",
+          "bearCase": "RSI nicht <10 → Regel 1 nicht erfüllt; nur Pullback von Rekordniveau, kein Extrem; FOMC morgen + Earnings 24.06. = Eventdichte.",
+          "invalidation": "Kein messbares tiefes Extrem → kein Setup."
+        },
+        {
+          "rang": 3,
+          "aktie": "Advanced Micro Devices",
+          "ticker": "AMD",
+          "yahooSymbol": "AMD",
+          "richtung": "long",
+          "sektor": "Halbleiter",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "—"},
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Kurs ~$538,74 (von Rekord ~$558), nur -1,6% bis -4,6% am 16.06. Bewertungsmodelle sehen AMD ~21,6% ÜBERbewertet (Fair Value ~$450). Profit-Taking + Pre-FOMC-Derisking, kein Firmenbruch.",
+          "bullCase": "Über 200-SMA, kein fundamentaler Bruch.",
+          "bearCase": "Weit von überverkauft entfernt — nahe Rekord, RSI hoch, eher überbewertet als Extrem; ein Long wäre KEIN Fade, sondern Trendkauf (mandatsfremd).",
+          "invalidation": "Kein Extrem, Setup-Definition (Regel 1) nicht erfüllt."
+        },
+        {
+          "rang": 4,
+          "aktie": "Leidos Holdings",
+          "ticker": "LDOS",
+          "yahooSymbol": "LDOS",
+          "richtung": "long",
+          "sektor": "Defense/IT",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~22,5, Kurs ~$113,6 nahe 2-Jahres-Tief. HARTER KATALYSATOR (seit gestern): Jefferies-Downgrade auf Hold + Verlust des DHA-EHR-Auftrags + Defense-Rotation nach Iran-Friedensdeal.",
+          "bullCase": "Überverkauft.",
+          "bearCase": "Mehrfacher fundamentaler Bruch + unter 200-SMA → Regel 2/3/8: faden verboten.",
+          "invalidation": "Bereits invalide: fallendes Messer mit hartem Katalysator."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE für Handelstag Mi 17.06.2026. (1) EVENT-DOMINANZ (Regel 9): FOMC-Entscheid Mi 17.06. 14:00 ET liegt INNERHALB der morgigen Session — jeder für Mi eröffnete MR-Fade (maxHaltezeitTage=3) würde direkt durch das binäre Event gehalten (erste Warsh-Sitzung, hawkisher Bias-Shift/Hike-Risiko). Strukturbasierte Stops lägen im FOMC-Gap-Rausch → 1%-Risiko nicht kontrollierbar (Regel 10). (2) KEINE OVERSOLD-LONGS: Der Dienstags-Abverkauf war eine Rotation aus Halbleitern (AMD, MU, AVGO, NVDA) in Zykliker (Dow-Rekord) — ABER die Halbleiter sind keine statistischen Extreme: sie geben nur Gewinne von Rekordniveau ab (AMD ~$539 von $558 und ~21,6% überbewertet; MU ~$1.057 von $1.133), RSI weit über 30, nicht auf der Oversold-Liste → Regel 1 (RSI(2)<10) nicht erfüllt, kein Fade. (3) Die tatsächlich überverkauften Large-Caps sind fallende Messer mit hartem Katalysator: FOX (RSI~25, aber $22-Mrd-Roku-Übernahme mit Verwässerung + $8,3 Mrd Schulden → -17% Mo/-5% Di auf 52-Wochen-Tief; Regimewechsel, Regel 3+8) und LDOS (Downgrade + Auftragsverlust, unter 200-SMA). (4) KEINE SHORTS: überkauft sind nur die Zykliker auf Rekordhochs — über ihrer 200-SMA → Trend-Filter (Regel 2) verbietet Shorts; S&P-RSI ~60, nicht überdehnt. Bestes Setup-Score 15 << Schwelle 70/80. T-001 HPE bleibt offen und arbeitet ohne neues Kapitalrisiko. Re-Evaluation nach dem FOMC-Statement für gap-freie MR-Fades Do/Fr 18.-19.06. Kapitalerhalt vor Aktivität (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Exposure in das binäre FOMC-Ereignis 17.06.; kein Fade gegen die news-/rotationsgetriebene Bewegung; kein Kauf fallender Messer (FOX/LDOS) und kein mandatsfremder Trendkauf überbewerteter Halbleiter.",
+          "scheitern": "Fällt der FOMC dovish/neutral aus und die abverkauften Halbleiter drehen nach oben, entgeht uns eine Erholung — aber das wäre Momentum-/Trendkauf, kein MR-Setup, und ohne kontrollierbares Risiko vor dem Event.",
+          "sofortUngueltig": "Ruhiger Range-Markt nach dem FOMC mit echtem RSI(2)<10-Extrem ÜBER der 200-SMA und ohne harten Katalysator würde ein gültiges MR-Long-Setup eröffnen (Do/Fr 18.-19.06.).",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
