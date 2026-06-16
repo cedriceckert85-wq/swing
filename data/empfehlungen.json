@@ -369,6 +369,135 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-16",
+      "zeit": "15:04",
+      "fuerHandelstag": "2026-06-16",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "news",
+        "begruendung": "Außerplanmäßiger erster V4-Lauf nach dem Mandatsumbau Momentum→Mean-Reversion (16.06.). Markt im strukturellen AUFWÄRTSTREND: S&P 500 Schluss Mo 15.06. 7.554,29 (+1,7%) klar über 50d-MA (~7.267) und 200d-MA (~6.887); Nasdaq +3,1% (26.683,94), Dow-Rekord. ABER: Montag war ein NEWS-GETRIEBENER Risk-on-Spike nach US-Iran-Friedens-MoU (Hormuz-Öffnung) — kein ruhiger Range-Markt. VIX niedrig ~16. Für Mean Reversion ungünstig (Regel 3): starker Trend → Signale unterdrücken; news-getriebener Spike → kein sauberes Fade-Umfeld. Binäres Makro-Event im 3-Tage-Haltefenster: FOMC Mi 17.06. 14:00 ET, erste Sitzung unter Chair Warsh, Hold ~89% erwartet, aber hawkisher Bias-Shift/Dot-Plot-Streichung möglich, Futures preisen eher Hike als Cut. Quellen <24h: TheStreet/Yahoo (Indizes), tradingeconomics/Yahoo (VIX), IndexBox/Polymarket (FOMC)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Warner Music Group",
+          "ticker": "WMG",
+          "yahooSymbol": "WMG",
+          "richtung": "long",
+          "sektor": "Medien/Musik",
+          "score": 25,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~9 (Screener; RSI(2) nicht verifizierbar), Schluss $28,49. Starke Q2 FY26 (EPS $0,35 vs $0,069 VJ, Umsatz $1,73 Mrd +17%, TikTok-Deal verlängert) → kein fundamentaler Bruch im Quartal. ABER jüngst Goldman-Downgrade (Neutral) + Morgan-Stanley-Downgrade (Equal Weight) + AFM-Klage 05.06. (KI-Settlements) + Guggenheim-PT auf $34 → bewertungs-/governance-getriebener Druck.",
+          "bullCase": "Tief überverkauft bei intakten Quartalszahlen; Reversion zur 200-SMA (~$29) wäre ~+2%.",
+          "bearCase": "Kurs $28,49 UNTER 200-SMA (~$29,05) → Trend-Filter (Regel 2) verbietet Long; Downgrade-Serie + Klage = Sentiment-Bruch, kein reiner Dip.",
+          "invalidation": "Bereits invalide: unter 200-SMA → fallendes Messer statt Dip."
+        },
+        {
+          "rang": 2,
+          "aktie": "Trimble",
+          "ticker": "TRMB",
+          "yahooSymbol": "TRMB",
+          "richtung": "long",
+          "sektor": "Technologie/Industrie",
+          "score": 20,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unbestaetigt/wahrscheinlich unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Laut GuruFocus most-oversold-Wert im S&P 500 während des Juni-Pullbacks (RSI~25,85 / 14d), Kurs ~$50,21, GF-Score 85 (Qualität, kein harter Katalysator erkennbar).",
+          "bullCase": "Qualitätsname ohne fundamentalen Bruch; mean-reversion-Potenzial.",
+          "bearCase": "RSI(14)~26 nur MÄSSIG überverkauft — weit vom V4-Extrem (RSI(2)<10); nach Montags-Rally nicht mehr frisch; 200-SMA-Deckung nicht bestätigt (Fall ~$70→$50 deutet Abwärtstrend).",
+          "invalidation": "Kein messbares tiefes Extrem → Setup-Definition (Regel 1) nicht erfüllt."
+        },
+        {
+          "rang": 3,
+          "aktie": "Boston Scientific",
+          "ticker": "BSX",
+          "yahooSymbol": "BSX",
+          "richtung": "long",
+          "sektor": "Medizintechnik",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~10 (Screener), Kurs ~$47,9. ABER 200-SMA ~$95,8, 52-Wochen-Tief $47,35 — Kurs ~50% unter 200-SMA, 'breaks below 200-day'.",
+          "bullCase": "Statistisch extrem überverkauft.",
+          "bearCase": "Klassisches fallendes Messer: tief im Abwärtstrend, weit unter 200-SMA → Trend-Filter verbietet Long strikt.",
+          "invalidation": "Bereits invalide: massiver Abwärtstrend, kein Dip."
+        },
+        {
+          "rang": 4,
+          "aktie": "Applied Materials",
+          "ticker": "AMAT",
+          "yahooSymbol": "AMAT",
+          "richtung": "short",
+          "sektor": "Halbleiter",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "oberes"},
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Repräsentativ für die Overbought-Liste (AMAT RSI~76 +3,3%; ebenso KLAC/CAH/SNX/RY/JEF RSI 75-78). Halbleiter nach Montags-Rally stark.",
+          "bullCase": "Überkauft nach Spike → theoretischer Short-Fade.",
+          "bearCase": "Alle Overbought-Namen notieren ÜBER ihrer 200-SMA (Aufwärtstrend) → Trend-Filter (Regel 2) verbietet Shorts; zudem RSI~76 kein Extrem >90; Short gegen Risk-on-Tape vor FOMC = Squeeze-Gefahr.",
+          "invalidation": "Short im Aufwärtstrend verboten → kein gültiges Setup."
+        },
+        {
+          "rang": 5,
+          "aktie": "Leidos Holdings",
+          "ticker": "LDOS",
+          "yahooSymbol": "LDOS",
+          "richtung": "long",
+          "sektor": "Defense/IT",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~23, -5,9% auf 52-Wochen-/2-Jahres-Tief ~$113,3. HARTER KATALYSATOR: Jefferies-Downgrade auf Hold + Defense Health Agency ersetzt Leidos als EHR-Systemintegrator (Auftrag seit 2015) + Defense-Rotation nach Iran-Friedensdeal.",
+          "bullCase": "Überverkauft, Mean-Reversion-Versuchung.",
+          "bearCase": "Mehrfacher fundamentaler Bruch (Downgrade + Auftragsverlust) → Regel 3+8: Faden verboten; Regimewechsel, nicht Überreaktion.",
+          "invalidation": "Bereits invalide: harter Katalysator hinter dem Extrem."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE (Handelstag Di 16.06.2026, US-Session). Erster V4-Mean-Reversion-Lauf nach dem Mandatsumbau — regelbasiert kein gültiges Setup. (1) REGIME (Regel 3) gegen MR: starker Aufwärtstrend (S&P/Nasdaq über 200-SMA, Dow-Rekord) + Montag 15.06. news-getriebener Risk-on-Spike (Iran-Deal) → Signale unterdrücken, kein Range-/Fade-Umfeld. (2) LONG-Seite: alle tief überverkauften Namen sind fallende Messer ODER unter der 200-SMA — WMG ($28,49 < 200-SMA $29,05, dazu Goldman-/MS-Downgrades + AFM-Klage), LDOS (Jefferies-Downgrade + Verlust des DHA-EHR-Auftrags, 2-Jahres-Tief), BSX (~50% unter 200-SMA). Trend-Filter (Regel 2, Long nur >200-SMA) + News-Ausschluss (Regel 8) schließen sie aus. Qualitäts-Oversold (TRMB RSI~26, PTC RSI~24) nur mäßig überverkauft — kein V4-Extrem (RSI(2)<10). Strukturlogik: nach +3,1% Nasdaq am Montag sind kaum Aufwärtstrend-Titel überverkauft; oversold sind nur Titel mit eigenen Problemen. (3) SHORT-Seite: alle überkauften Namen (AMAT/KLAC/CAH/SNX/RY/JEF, RSI 75-78) notieren ÜBER ihrer 200-SMA → Trend-Filter verbietet Shorts. (4) EVENT-RISIKO (Regel 9): FOMC Mi 17.06. (erste Warsh-Sitzung, hawkisher Bias-Shift möglich, Futures eher Hike als Cut) liegt im 3-Tage-Haltefenster — ein heute eröffneter Fade liefe direkt in das binäre Event. Bestes Setup-Score 25 (WMG) << Schwelle 70/80. T-001 HPE bleibt offen, arbeitet ohne neues Kapitalrisiko. Re-Evaluation nach FOMC. Kapitalerhalt vor Aktivität (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Exposure in das binäre FOMC-Ereignis 17.06.; kein Fade gegen einen starken, news-getriebenen Aufwärtstrend; kein Kauf fallender Messer (LDOS/BSX/WMG).",
+          "scheitern": "Fällt der FOMC dovish/neutral aus und einer der Oversold-Namen dreht, entgeht uns eine Reversion — aber kein Kapitalverlust, und keiner erfüllte Trend-Filter + Extrem-Schwelle.",
+          "sofortUngueltig": "Ruhiger Range-Markt nach dem FOMC mit echten RSI(2)<10-Extremen ÜBER der 200-SMA würde ein gültiges MR-Long-Setup eröffnen (Do/Fr 18.-19.06.).",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
