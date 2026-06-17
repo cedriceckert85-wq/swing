@@ -606,6 +606,114 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-17",
+      "zeit": "22:31",
+      "fuerHandelstag": "2026-06-18",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "news",
+        "begruendung": "Re-Evaluation NACH dem FOMC (wie im Vorlauf angekündigt). FOMC 17.06. HAWKISH: Fed hielt 3,50-3,75%, aber 9/18 Mitglieder sehen Hike bis Jahresende, Median-Dot 2026 auf 3,8% (von 3,4%), Warsh legte keinen Dot-Plot vor → 2-J-Renditen +14bp (Mehrjahreshoch), US-Dollar +1% (bester Tag seit ~1 Jahr), Aktien whipsawten und verkauften in den Schluss ab (CNBC: Dow ~-400/-500 Pkt). Struktur weiterhin Aufwärtstrend (S&P über 200-SMA), aber kurzfristiges Regime jetzt NEWS-GETRIEBEN mit laufender Higher-for-longer-Neubewertung → für MR ungünstig (Regel 3): kein ruhiges Range-Umfeld, Gegenwind für hochbewertete Tech und China-ADRs (Dollarstärke). Quellen <24h: CNN/CNBC/investingLive (FOMC+Reaktion), TheStreet/Yahoo (Close), barchart/gurufocus (NVDA/AMD RSI), Yahoo/Benzinga (NFLX), Phemew/SimplyWallSt (BABA)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Alibaba Group",
+          "ticker": "BABA",
+          "yahooSymbol": "BABA",
+          "richtung": "long",
+          "sektor": "China-Tech/E-Commerce",
+          "score": 40,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~25 (Screener), ~$152, -20% vom Okt-Hoch $193, aber +70% seit 2024-Tief / +9,7% in 90 Tagen → längerfristig über 200-SMA. KEIN frischer firmenspezifischer Bruch (Goldman conviction Buy, Forward-P/E ~14). Headwinds: China-BIP-Ziel 4,5-5% (niedrigstes seit Jahrzehnten), Cloud-Margen-Risiko.",
+          "bullCase": "Über 200-SMA, kein harter Katalysator, günstig bewertet → Reversion zum Mittel plausibel.",
+          "bearCase": "Nur MÄSSIG überverkauft (RSI~25, kein V4-Extrem RSI(2)<10); hawkisher Fed → Dollar +1% = Gegenwind für China-ADR; hohes Gap-Risiko über das lange Wochenende (Fr 19.06. Juneteenth-Feiertag).",
+          "invalidation": "Bruch unter die jüngsten Tiefs / weitere Dollar-Stärke / China-Negativnews über das Wochenende."
+        },
+        {
+          "rang": 2,
+          "aktie": "Netflix",
+          "ticker": "NFLX",
+          "yahooSymbol": "NFLX",
+          "richtung": "long",
+          "sektor": "Kommunikation/Streaming",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~26, -2,2% am 17.06., -30% seit April, YTD -16%. UNTER 50/100/200-SMA (200-SMA ~$70). HARTE KATALYSATOREN: FY26-Umsatzguidance nicht angehoben, Margenziel 31,5% < 32% erwartet; Bieterverluste Roku (an Fox) + WBD (an Paramount); Chairman Reed Hastings tritt ab.",
+          "bullCase": "Tief gefallen, theoretische Reversion.",
+          "bearCase": "Unter 200-SMA → Trend-Filter verbietet Long; Guidance-/Strategie-/Führungsbruch = fundamentaler Bruch (Regel 3+8) → fallendes Messer.",
+          "invalidation": "Bereits invalide: Abwärtstrend + harte Katalysatoren."
+        },
+        {
+          "rang": 3,
+          "aktie": "Boston Scientific",
+          "ticker": "BSX",
+          "yahooSymbol": "BSX",
+          "richtung": "long",
+          "sektor": "Medizintechnik",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~25, Kurs ~$48, 200-SMA ~$96 → ~50% unter 200-SMA, anhaltender Abwärtstrend (wie Vorläufe).",
+          "bullCase": "Statistisch überverkauft.",
+          "bearCase": "Tiefer Abwärtstrend, weit unter 200-SMA → Trend-Filter verbietet Long strikt.",
+          "invalidation": "Bereits invalide: fallendes Messer."
+        },
+        {
+          "rang": 4,
+          "aktie": "NVIDIA",
+          "ticker": "NVDA",
+          "yahooSymbol": "NVDA",
+          "richtung": "long",
+          "sektor": "Halbleiter",
+          "score": 5,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "—"},
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~45 = NEUTRAL, nicht überverkauft (AMD~60). Der Chip-Selloff der Vortage brachte die Halbleiter nur auf neutral zurück, kein Extrem. 50d-SMA über 200d-SMA (Aufwärtstrend intakt).",
+          "bullCase": "Über 200-SMA, kein Bruch.",
+          "bearCase": "Kein messbares Extrem (RSI~45) → Regel 1 nicht erfüllt; ein Long wäre Trendkauf, mandatsfremd; hawkisher Fed belastet hohe Multiples.",
+          "invalidation": "Kein Setup mangels Extrem."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE für Handelstag Do 18.06.2026 (Re-Eval nach FOMC). (1) FOMC HEUTE HAWKISH: Hold 3,50-3,75%, aber 9/18 sehen Hike bis Jahresende, Median-Dot 2026 auf 3,8%, kein Dot-Plot von Warsh → 2-J-Renditen +14bp, Dollar +1%, Aktien verkauften in den Schluss ab (Dow ~-400/-500 Pkt). Regime news-getrieben mit laufender Higher-for-longer-Neubewertung (Regel 3 ROT) — kein ruhiges Range-Umfeld zum Faden, Gegenwind für Tech UND China-ADRs. (2) KEIN TIEFES EXTREM IN UPTREND-TITELN: Halbleiter NICHT überverkauft (NVDA RSI~45, AMD~60) → Regel 1 nicht erfüllt. Die überverkauften Large-Caps sind fallende Messer mit hartem Katalysator unter 200-SMA — NFLX (RSI~26, unter 200-SMA + Guidance-Enttäuschung + M&A-Verluste Roku/WBD + Hastings-Abgang) und BSX (~50% unter 200-SMA) — oder nur mäßig überverkauft: BABA (RSI~25, über 200-SMA, kein Firmenbruch, ABER kein V4-Extrem RSI(2)<10 und Dollar-/China-Gegenwind). (3) FEIERTAGS-/WOCHENEND-RISIKO (Regel 9): Fr 19.06. = Juneteenth, US-Börse GESCHLOSSEN. Ein Do-Einstieg mit maxHaltezeitTage=3 würde über das lange Wochenende (Do→Mo) gehalten — Gap-Risiko nach hawkishem Fed + Dollar-Surge erhöht, 'flat vor Wochenende' spricht dagegen. (4) KEINE SHORTS: überkauft sind nur Aufwärtstrend-Namen über 200-SMA → Trend-Filter verbietet Shorts. Bestes Setup-Score 40 (BABA) << Schwelle 70/80. T-001 HPE bleibt offen, kein neues Kapitalrisiko. Nächste saubere MR-Gelegenheit nach Verdauung der Fed-Neubewertung und nach dem Feiertag (ab Mo 22.06.). Kapitalerhalt vor Aktivität (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Fade in eine laufende hawkishe Neubewertung (Dollar/Renditen steigen); kein Long unter der 200-SMA (NFLX/BSX); kein Feiertags-/Wochenend-Gap-Risiko über das lange Juneteenth-Wochenende.",
+          "scheitern": "Beruhigt sich die Lage und BABA/oversold-Namen drehen, entgeht uns eine Reversion — aber ohne tiefes Extrem und mit Dollar-Gegenwind vor einem Feiertagswochenende war das nicht fondswürdig.",
+          "sofortUngueltig": "Nach dem Feiertag (ab Mo 22.06.) ein echtes RSI(2)<10-Extrem ÜBER der 200-SMA ohne harten Katalysator in einem beruhigten Range-Markt → gültiges MR-Long-Setup.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
