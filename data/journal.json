@@ -8,8 +8,8 @@
     "trades": 0,
     "gewonnen": 0,
     "verloren": 0,
-    "verfallen": 0,
-    "offen": 1,
+    "verfallen": 1,
+    "offen": 0,
     "trefferquote": null,
     "summeR": 0,
     "erwartungswertR": null,
@@ -33,12 +33,13 @@
       "crv": 3.0,
       "score": 85,
       "maxHaltezeitTage": 5,
-      "status": "wartet",
+      "status": "verfallen",
       "katalysator": "Record Q2 FY2026 (01.06.26): Umsatz +40% YoY auf $10,7 Mrd. (Rekord), EPS $0,79 vs. $0,53 Konsens (+49% Beat), AI-Bestellrückstand $1,8 Mrd., FY2026/2027-Guidance angehoben. 5 Tier-1-Upgrades: Goldman Sachs Buy/PT $79, BofA Buy/PT $80, Loop Capital Buy/PT $75 (12.06.26), Argus Research Buy/PT $70, Barclays Overweight/PT $67. Konsens-Kursziel (23 Analysten): $62,60. Wachstumstreiber: AI-Server-Infrastruktur + Juniper-Integration.",
       "log": [
         "Alpaca: Bracket-Order platziert (25 Stk., Order 2303c919...)",
         "12.06. Umstellung auf 100.000-$-Konto: 25-Stk.-Order storniert, neu mit 1R=1.000$ platziert",
-        "Alpaca: Bracket-Order platziert (250 Stk., Order fd46dc91...)"
+        "Alpaca: Bracket-Order platziert (250 Stk., Order fd46dc91...)",
+        "Entry 2 Handelstage nicht getriggert -> Order storniert, verfallen"
       ],
       "alpaca": {
         "orderId": "fd46dc91-e0e4-4a71-8ecb-9752b824b739",
