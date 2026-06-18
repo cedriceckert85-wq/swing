@@ -714,6 +714,135 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-18",
+      "zeit": "22:31",
+      "fuerHandelstag": "2026-06-22",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "normal",
+        "begruendung": "Lauf für Handelstag Mo 22.06. (Fr 19.06. = Juneteenth-Feiertag, US-Börse zu → nächster Handelstag Montag; daher KEIN Wochenend-Halterisiko für einen Montag-Einstieg). Do 18.06. war ein RISK-ON-BOUNCE zur Verdauung von Fed + Iran-Deal: S&P +1,15%, Nasdaq +1,5%, Dow +0,8% (Russell 2000 schwächer, zinssensitiv). Markt zurück nahe Hochs → struktureller Aufwärtstrend intakt; Dollar fest (DXY ~100,8, +0,72%), 10-J-Rendite 4,49%. Für MR ungünstig (Regel 3): nach einem starken Up-Tag sind überverkaufte Dips in Aufwärtstrend-Titeln rar; starker Trend → Signale unterdrücken. Quellen <24h: TheStreet/Yahoo (Close 18.06.), tradingeconomics (DXY/Renditen), stockanalysis-Screener + Yahoo (ACN/BABA)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Alibaba Group",
+          "ticker": "BABA",
+          "yahooSymbol": "BABA",
+          "richtung": "long",
+          "sektor": "China-Tech/E-Commerce",
+          "score": 20,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~25, Kurs $107,44 (Vortagesschluss $110,97). Kein frischer firmenspezifischer Bruch. ABER 200-SMA ~$148-153 → Kurs ~28% UNTER 200-SMA = Abwärtstrend; Dollar-Stärke (+0,72%) + China-BIP-Sorgen als Gegenwind. (Korrektur ggü. Vorlauf: BABA ist NICHT über der 200-SMA.)",
+          "bullCase": "Mäßig überverkauft, günstig bewertet (Forward-P/E ~14), Goldman Buy.",
+          "bearCase": "Unter 200-SMA → Trend-Filter (Regel 2) verbietet Long; kein V4-Extrem (RSI~25, nicht RSI(2)<10); Dollar-Gegenwind für ADR.",
+          "invalidation": "Bereits invalide: Abwärtstrend (unter 200-SMA)."
+        },
+        {
+          "rang": 2,
+          "aktie": "TotalEnergies",
+          "ticker": "TTE",
+          "yahooSymbol": "TTE",
+          "richtung": "long",
+          "sektor": "Energie",
+          "score": 15,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unbestaetigt/wahrscheinlich unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~24, $80,43, -2,06%. SEKTOR-KATALYSATOR: Öl schwach nach US-Iran-Friedensdeal (Hormuz offen) → Energie unter Druck; das ist ein makro-/sektorgetriebener Abwärtsimpuls, kein reiner technischer Dip.",
+          "bullCase": "Überverkauft, hohe Dividende, Substanzwert.",
+          "bearCase": "Öl-Schwäche ist ein anhaltender Sektor-Treiber (Regimewechsel Energie), kein Sentiment-Dip; 200-SMA-Deckung nicht bestätigt; mäßiges RSI, kein V4-Extrem.",
+          "invalidation": "Öl-Abwärtstrend setzt sich fort / unter jüngsten Tiefs."
+        },
+        {
+          "rang": 3,
+          "aktie": "Accenture",
+          "ticker": "ACN",
+          "yahooSymbol": "ACN",
+          "richtung": "long",
+          "sektor": "IT-Services/Consulting",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~21, $127,98, -17,97% (schlechtester Tag seit Jahren). HARTER KATALYSATOR: FQ3-Umsatzmiss ($18,7 Mrd vs $18,78), Guidance-Cut auf 3-4% Wachstum (von 3-5%), Bookings $19,3 Mrd < $19,7 Mrd VJ, KI-Bedrohung fürs Consulting.",
+          "bullCase": "Extrem überverkauft nach Gap-Down.",
+          "bearCase": "Earnings-/Guidance-Bruch (Regel 8 → faden verboten); klassisches fallendes Messer am Tag des Gap-Downs.",
+          "invalidation": "Bereits invalide: harter Earnings-Katalysator."
+        },
+        {
+          "rang": 4,
+          "aktie": "Cognizant",
+          "ticker": "CTSH",
+          "yahooSymbol": "CTSH",
+          "richtung": "long",
+          "sektor": "IT-Services",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unbestaetigt",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~26, $43,70, -10,49%. KATALYSATOR: Read-through aus dem Accenture-Bruch → IT-Services-Sektorschock (KI-Disruptions-Sorgen fürs gesamte Consulting).",
+          "bullCase": "Sektor-Mitnahme, evtl. übertrieben.",
+          "bearCase": "Sektorweiter fundamentaler Schock (Regel 3/8), kein isolierter Dip; gleicher Tag wie ACN-Crash.",
+          "invalidation": "Bereits invalide: Sektor-Katalysator hinter dem Extrem."
+        },
+        {
+          "rang": 5,
+          "aktie": "Fox Corporation",
+          "ticker": "FOX",
+          "yahooSymbol": "FOX",
+          "richtung": "long",
+          "sektor": "Medien",
+          "score": 10,
+          "extrem": {"rsi2": null, "zScore": null, "atrAbstand": null, "bollinger": "unteres"},
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "RSI(14)~26, $46,95, +0,47% (stabilisiert leicht). Weiterhin der $22-Mrd-Roku-Deal als struktureller Überhang (Verwässerung/Schulden), 52-Wochen-Tief-Bereich, unter 200-SMA.",
+          "bullCase": "Tief überverkauft, leichte Stabilisierung.",
+          "bearCase": "M&A-Katalysator + unter 200-SMA (Regel 2/3/8 → faden verboten).",
+          "invalidation": "Bereits invalide: fallendes Messer mit M&A-Katalysator."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE für Handelstag Mo 22.06.2026 (Fr 19.06. Juneteenth-Feiertag). (0) T-001 (HPE, alter V3-Momentum-Trade) ist VERFALLEN — Limit $45 in 2 Handelstagen nicht getriggert, Order storniert; jetzt 0 offene Trades, Bremse inaktiv (V4 startet mit sauberer Bilanz). (1) REGIME: Do 18.06. Risk-on-Bounce (S&P +1,15%, Nasdaq +1,5%) zur Verdauung von Fed + Iran-Deal → Markt nahe Hochs, starker Aufwärtstrend, Dollar fest; nach einem starken Up-Tag fehlen überverkaufte Dips in Aufwärtstrend-Titeln (Regel 3, Signale unterdrücken). (2) Die überverkauften Large-Caps sind ausnahmslos fallende Messer mit hartem Katalysator ODER unter der 200-SMA: ACN -18% (Q3-Umsatzmiss + Guidance-Cut + schwächere Bookings + KI-Consulting-Sorgen) und CTSH -10,5% (IT-Services-Read-through) = klare fundamentale Brüche (Regel 8 → faden verboten); FOX (Roku-M&A, unter 200-SMA); BABA $107 liegt ~28% UNTER der 200-SMA (~$148-153) → Abwärtstrend, Trend-Filter verbietet Long, plus Dollar-Gegenwind; TTE/WLK öl-/sektorgetrieben (Öl schwach nach Iran-Deal), nur mäßig überverkauft. (3) Kein Titel zeigt das geforderte TIEFE Extrem (RSI(2)<10) in einem AUFWÄRTSTREND OHNE Katalysator. (4) KEINE SHORTS: überkauft sind nur Aufwärtstrend-Namen über 200-SMA → Trend-Filter verbietet Shorts. Bestes Setup-Score 20 << Schwelle 70/80. HINWEIS: 4. No-Trade-Lauf in Folge — kein erzwungener Stillstand, sondern die V4-Regeln im anhaltenden Bull-Trend-/Makro-Umfeld; ein gültiges MR-Setup braucht ein Range-/Korrektur-Regime mit echten RSI(2)<10-Extremen über der 200-SMA. Kapitalerhalt vor Aktivität (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Kauf fallender Messer (ACN/CTSH/FOX) und kein Long unter der 200-SMA (BABA); kein Fade gegen einen starken Aufwärtstrend nach Risk-on-Bounce.",
+          "scheitern": "Drehen die abverkauften IT-Services-/China-Namen schnell zurück, entgeht uns eine Reversion — aber alle haben entweder einen frischen fundamentalen Bruch oder einen Abwärtstrend, also kein sauberes MR-Setup.",
+          "sofortUngueltig": "Eine echte Marktkorrektur/Range mit RSI(2)<10-Extremen ÜBER der 200-SMA und ohne harten Katalysator (z. B. ein breiter, sentimentgetriebener Pullback ohne Earnings-/Makro-Bruch) würde ein gültiges MR-Long-Setup eröffnen.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
