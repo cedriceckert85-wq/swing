@@ -21,6 +21,19 @@ import urllib.error
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from trade_eval import r_multiple, statistik_neu  # noqa: E402
 
+# Flotte 2.0: Orders laufen NUR ueber das zentrale Risk-Gate (steuerung/pi/bin/order_gate.py).
+# Ist das Gate nicht erreichbar (z.B. fremder Cloud-Runner ohne steuerung/), wird KEINE Order
+# direkt gesetzt -- fail-safe: lieber Yahoo-Simulation als am Gate vorbei zu handeln.
+_GATE_BIN = os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                          "..", "..", "..", "steuerung", "pi", "bin"))
+if _GATE_BIN not in sys.path:
+    sys.path.insert(0, _GATE_BIN)
+try:
+    from order_gate import submit_order as _gate_submit  # noqa: E402
+except Exception as _e:  # pragma: no cover
+    _gate_submit = None
+    print(f"WARN order_gate nicht erreichbar ({_e}) -> Orders werden NICHT direkt gesetzt.")
+
 BASE = "https://paper-api.alpaca.markets/v2"
 KEY = os.environ.get("ALPACA_KEY", "")
 SEC = os.environ.get("ALPACA_SECRET", "")
@@ -75,7 +88,14 @@ def order_anlegen(t):
         body["limit_price"] = f"{t['entry']:.2f}"
     else:
         body["stop_price"] = f"{t['entry']:.2f}"
-    o = api("/orders", "POST", body)
+    if _gate_submit is None:
+        t.setdefault("log", []).append("Alpaca: Risk-Gate nicht erreichbar -> Yahoo-Simulation")
+        return False
+    o = _gate_submit("swing", body)
+    if not o or not o.get("id"):
+        grund = (o or {}).get("reason") or (o or {}).get("gate") or "kein Versand"
+        t.setdefault("log", []).append(f"Alpaca: Order nicht platziert ({grund}) -> Yahoo-Simulation")
+        return False
     t["alpaca"] = {"orderId": o["id"], "qty": qty}
     t.setdefault("log", []).append(f"Alpaca: Bracket-Order platziert ({qty} Stk., Order {o['id'][:8]}...)")
     print(f"{t['id']} {t['ticker']}: Bracket-Order platziert, {qty} Stk.")
@@ -122,11 +142,15 @@ def order_sync(t):
                         except RuntimeError:
                             pass
                 seite = "sell" if t["richtung"] == "long" else "buy"
-                eo = api("/orders", "POST", {
+                eo = _gate_submit("swing", {
                     "symbol": t["ticker"], "qty": str(t["alpaca"]["qty"]),
-                    "side": seite, "type": "market", "time_in_force": "opg"})
-                t["exitOrderId"] = eo["id"]
-                t.setdefault("log", []).append("Haltedauer erreicht -> Market-on-Open-Exit platziert")
+                    "side": seite, "type": "market", "time_in_force": "opg"}) if _gate_submit else None
+                if eo and eo.get("id"):
+                    t["exitOrderId"] = eo["id"]
+                    t.setdefault("log", []).append("Haltedauer erreicht -> Market-on-Open-Exit platziert")
+                else:
+                    t.setdefault("log", []).append(
+                        f"MOO-Exit nicht platziert ({(eo or {}).get('reason', 'Gate?')}) -> naechster Lauf")
     if t["status"] in ("gewonnen", "verloren", "zeit_exit") and "ergebnisR" not in t:
         t["ergebnisR"] = r_multiple(t, t["exitKurs"])
         t["pnlEur"] = round(t["ergebnisR"] * RISIKO_USD, 2)
@@ -151,9 +175,13 @@ def main():
             print(f"{t['id']}: {e}")
     d["statistik"] = statistik_neu(d["trades"])
     if json.dumps(d, sort_keys=True) != vorher:
-        with open(J, "w", encoding="utf-8") as f:
-            json.dump(d, f, ensure_ascii=False, indent=2)
-            f.write("\n")
+        try:
+            from atomwrite import write_atomic as _wa
+            _wa(J, json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+        except Exception:
+            with open(J, "w", encoding="utf-8") as f:
+                json.dump(d, f, ensure_ascii=False, indent=2)
+                f.write("\n")
         print("Journal aktualisiert (Alpaca).")
     else:
         print("Keine Aenderungen (Alpaca).")

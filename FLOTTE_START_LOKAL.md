@@ -18,3 +18,14 @@ Alte Momentum-Spec archiviert: `AGENT_V3_MOMENTUM_ARCHIV.md`. Forschung: `resear
 ## SCHRITT 2 — Verifizieren
 - `CronList` → 1 Job. Du kannst den Lauf testweise jetzt einmal ausführen, um Research + Push lokal zu prüfen.
 - 7-Tage-Ablauf der durablen Crons beachten. Fenster zu = Pause (eval.yml 22:11 + orders.yml 23:07 laufen als Netz weiter).
+
+
+---
+
+> **🏗️ FLOTTE 2.0 — Risk-Gate & Heartbeat (Pflicht, 21.06.2026):**
+> - Orders laufen durch das zentrale **Risk-Gate** (verdrahtet). Buche wie gewohnt — das Gate prüft
+>   Sizing/Limits/Sanity, setzt eine idempotente client_order_id und loggt nach
+>   `steuerung/pi/var/gate_audit.jsonl`. **NIE direkt an `/orders` posten.**
+> - **Reconcile-on-boot:** `python3 ../../steuerung/pi/lib/reconcile.py swing` (Broker-Wahrheit vor neuen Entscheidungen).
+> - **Tick je Lauf:** `python3 ../../steuerung/pi/bin/tick.py swing --full` (zusätzlich zum bestehenden heartbeat).
+> - Saubere v2-Spec: `flotte2/bots/gegentrend/SPEC.md`.

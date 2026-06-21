@@ -1,10 +1,7 @@
 name: Alpaca-Order-Platzierung
 
 on:
-  schedule:
-    # Mo-Fr 21:07 UTC = 23:07 Berlin (Sommer) — NACH dem Agenten-Lauf (22:31),
-    # damit frische Empfehlungen sofort als Bracket-Order ins Paper-Konto gehen.
-    - cron: '7 21 * * 1-5'
+  # schedule: DEAKTIVIERT 2026-06-21 (Flotte 2.0: alles auf den Pi -> Orders laufen ueber die Pi-Session/Timer durchs Risk-Gate, nicht aus der Cloud). Manuell weiter via workflow_dispatch.
   workflow_dispatch:
 
 permissions:
