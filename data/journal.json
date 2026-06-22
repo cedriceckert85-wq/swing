@@ -4,5 +4,19 @@
     "risikoProTradeUsd": 1000,
     "hinweis": "Paper-Trading (Alpaca-Konto, 100.000 $). R-Multiple-Logik: 1R = 1.000 $ Risiko (1 % des Kontos), Positionsgroesse folgt aus der Stop-Distanz. Umstellung 12.06.2026 auf Nutzerwunsch (vorher 10.000/100)."
   },
-  "trades": []
+  "trades": [],
+  "statistik": {
+    "trades": 0,
+    "gewonnen": 0,
+    "verloren": 0,
+    "verfallen": 0,
+    "offen": 0,
+    "trefferquote": null,
+    "summeR": 0,
+    "erwartungswertR": null,
+    "profitFactor": null,
+    "aktuelleVerlustserie": 0,
+    "groessteVerlustserie": 0,
+    "bremseAktiv": false
+  }
 }
