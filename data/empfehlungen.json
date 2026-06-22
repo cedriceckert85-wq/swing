@@ -843,6 +843,160 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-22",
+      "zeit": "23:05",
+      "fuerHandelstag": "2026-06-23",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "news",
+        "begruendung": "Mo 22.06. tech-getriebener Abverkauf: S&P 500 7.472,79 (-0,37%), Nasdaq Comp 26.166,60 (-1,32%); VIX 17,28 (+3,0%, nicht panisch). Ueberhang: Iran-Kriegsverhandlungen + ausstehende PCE-Inflation + hawkisher Fed (Vorwoche). Alphabet -5% (KI-Talent-Abgaenge), SpaceX -16% (3. Minus-Tag). Stark bifurkierter Rotations-/Trendmarkt (Software-/AI-Disruption-Abverkauf vs. Industrie-/Halbleiter-Staerke), KEIN Range-Regime -> MR-Signale unterdruecken (Regel 3)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Alphabet",
+          "ticker": "GOOGL",
+          "yahooSymbol": "GOOGL",
+          "richtung": "long",
+          "sektor": "Kommunikationsdienste",
+          "score": 40,
+          "extrem": {
+            "rsi2": 13.7,
+            "zScore": -1.75,
+            "atrAbstand": -1.69,
+            "bollinger": "—"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "FRISCHER Katalysator: -5% heute auf Sorgen um KI-Talent-Abgaenge (<24h). Pullback in intaktem Aufwaertstrend (+12,2% ueber 200-SMA), ABER nur 1 von 4 Extrem-Bedingungen (RSI(2) 13,7 nicht <10, Z -1,75 nicht <=-2). Kein tiefes Extrem + frischer News-Tropfen -> Regel 8 Warnsignal.",
+          "bullCase": "Dip im Aufwaertstrend ueber der 200-SMA; Mega-Cap mit Reversionsneigung.",
+          "bearCase": "Frischer negativer News-Katalysator (KI-Talent); Extrem nicht tief genug (RSI(2) 13,7).",
+          "invalidation": "Nur 1 Extrem-Bedingung + frische negative News -> kein qualifiziertes MR-Setup."
+        },
+        {
+          "rang": 2,
+          "aktie": "Chevron",
+          "ticker": "CVX",
+          "yahooSymbol": "CVX",
+          "richtung": "long",
+          "sektor": "Energie",
+          "score": 45,
+          "extrem": {
+            "rsi2": 32.3,
+            "zScore": -1.92,
+            "atrAbstand": -2.11,
+            "bollinger": "—"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Oel-/sektorgetriebene Schwaeche (Oel weich nach Iran-Deeskalation); knapp ueber 200-SMA (+1,9%). RSI(2) 32,3 ist KEIN Extrem (Regel 1 verlangt <10); nur ATR-Abstand -2,1 zeigt Spannung. Kein firmenspezifischer Bruch, aber auch kein tiefes Extrem.",
+          "bullCase": "Ueber 200-SMA, maessig ueberverkauft, kein Unternehmens-Katalysator.",
+          "bearCase": "RSI(2) 32 weit von <10; Makro-/Oelpreis-Gegenwind haelt an.",
+          "invalidation": "Setup-Definition (RSI(2)<10) nicht erfuellt -> kein Trade."
+        },
+        {
+          "rang": 3,
+          "aktie": "Salesforce",
+          "ticker": "CRM",
+          "yahooSymbol": "CRM",
+          "richtung": "long",
+          "sektor": "Software",
+          "score": 20,
+          "extrem": {
+            "rsi2": 0.0,
+            "zScore": -1.69,
+            "atrAbstand": -3.31,
+            "bollinger": "—"
+          },
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "HARTER struktureller Katalysator: KI-Disruptionsangst (Copilot/OpenAI-Agenten bedrohen CRM-Burggraben; Anthropic-Legal-Tool), -31% YTD; Kurs ~30% UNTER der 200-SMA. Trend-Filter (Regel 2) + Regel 8 -> faden VERBOTEN (Regimewechsel, kein Dip).",
+          "bullCase": "Extrem ueberverkauft (RSI(2) 0,0), tiefe ATR-Spannung (-3,3 ATR).",
+          "bearCase": "Fundamentales Re-Rating (AI-Disruption) im Abwaertstrend = fallendes Messer.",
+          "invalidation": "Bereits invalide: unter 200-SMA + harter Katalysator."
+        },
+        {
+          "rang": 4,
+          "aktie": "Netflix",
+          "ticker": "NFLX",
+          "yahooSymbol": "NFLX",
+          "richtung": "long",
+          "sektor": "Kommunikationsdienste",
+          "score": 20,
+          "extrem": {
+            "rsi2": 5.3,
+            "zScore": -2.43,
+            "atrAbstand": -3.82,
+            "bollinger": "unteres"
+          },
+          "trendFilter": "unter200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Tiefstes Gesamt-Extrem (RSI(2) 5,3, Z -2,43, -3,8 ATR, unteres Bollinger) - ABER ~25,7% UNTER der 200-SMA = ausgepraegter Abwaertstrend. Trend-Filter (Regel 2) verbietet Long; klassisches fallendes Messer.",
+          "bullCase": "Statistisch maximal ueberverkauft, am unteren Bollinger-Band.",
+          "bearCase": "25,7% unter 200-SMA -> struktureller Abwaertstrend, kein Dip.",
+          "invalidation": "Trend-Filter verletzt (unter 200-SMA) -> kein Long."
+        },
+        {
+          "rang": 5,
+          "aktie": "Caterpillar",
+          "ticker": "CAT",
+          "yahooSymbol": "CAT",
+          "richtung": "short",
+          "sektor": "Industrie",
+          "score": 20,
+          "extrem": {
+            "rsi2": 99.1,
+            "zScore": 2.7,
+            "atrAbstand": 3.09,
+            "bollinger": "oberes"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": null,
+          "entryTyp": "limit",
+          "stop": null,
+          "tp": null,
+          "crv": null,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Maximal ueberkauft (RSI(2) 99,1, Z +2,7, +3,1 ATR, oberes Bollinger) - ABER +51,8% UEBER der 200-SMA = starker Aufwaertstrend. Trend-Filter (Regel 2) verbietet Short; man shortet keine Staerke im Aufwaertstrend.",
+          "bullCase": "Extrem ueberkauft, weit ueberdehnt vom Mittel (+3,1 ATR).",
+          "bearCase": "Starker Aufwaertstrend (+52% ueber 200-SMA); Short gegen Trend = Messer von oben.",
+          "invalidation": "Trend-Filter verletzt (ueber 200-SMA) -> kein Short."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE fuer Handelstag Di 23.06.2026. (0) Boot: reconcile-on-boot (Broker-Wahrheit: equity 100.000$, 0 Positionen, 0 offene Orders) + tick geschrieben; Journal leer, Bremse inaktiv (V4 saubere Bilanz nach Konten-Reset). (1+2) REGIME: tech-getriebener Abverkauf (S&P -0,37%, Nasdaq Comp -1,32%), VIX 17,3 (nicht panisch), aber Iran-Kriegsverhandlungen + PCE-Daten + hawkisher Fed als Ueberhang; stark bifurkierter Rotations-/Trendmarkt, KEIN Range -> Regel 3: Signale unterdruecken. (3) SCREEN ueber 58 liquide Titel (RSI(2)/Z-Score/Bollinger/ATR + 200-SMA-Trendfilter): KEIN einziger Titel erfuellt >=2 Extrem-Bedingungen AUF DER RICHTIGEN SEITE der 200-SMA. Die tiefsten Ueberverkauft-Extreme sind allesamt fallende Messer UNTER der 200-SMA: NFLX (RSI(2) 5,3, -25,7% unter 200-SMA), CRM/ADBE/SAP/MSFT/ORCL = AI-Disruption-Abverkauf (Copilot/OpenAI/Anthropic-Tools, ADBE & CRM -31% YTD) = HARTER fundamentaler Bruch (Regel 8 -> faden verboten, bestaetigt durch 2 Quellen <24h). Die Ueberkauft-Extreme (CAT +52%, INTC +151%, SMH/TXN/ALV.DE/GS) liegen WEIT UEBER der 200-SMA -> Trend-Filter verbietet Shorts (keine Staerke shorten). (4) Bester Setup-Score 45 (CVX) << Schwelle 70/80: die Titel ueber der 200-SMA (GOOGL, CVX, XOM, XLE) erreichen nur 1 Extrem-Bedingung und sind nicht tief genug (RSI(2) 13-32, nicht <10); GOOGL zudem mit frischem -5%-News-Katalysator (KI-Talent). (5) Pflichtfrage Dip-oder-Trendbruch: jedes tiefe Extrem ist ein Trendbruch (Abwaerts mit Katalysator) bzw. Trendstaerke (Aufwaerts), kein sauberer Dip. FAZIT: 5. MR-No-Trade-Lauf in Folge (seit V4-Umbau 16.06.) - keine erzwungene Untaetigkeit, sondern die V4-Disziplin im anhaltenden Trend-/News-Regime. Ein gueltiges MR-Setup braucht ein Range-/Korrektur-Regime mit RSI(2)<10-Extremen UEBER der 200-SMA OHNE harten Katalysator. Kapitalerhalt vor Aktivitaet (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Kauf fallender Messer (NFLX/CRM/ADBE/SAP) trotz tiefster RSI(2)-Werte; kein Long unter der 200-SMA; kein Short gegen starke Aufwaertstrends (CAT/INTC); kein Fade des AI-Disruption-Re-Ratings im Software-Sektor.",
+          "scheitern": "Drehen die abverkauften Software-/Tech-Namen kurzfristig zurueck, entgeht uns eine Reversion - aber alle haben entweder einen frischen fundamentalen Bruch (AI-Disruption) oder einen Abwaertstrend, also kein sauberes MR-Setup.",
+          "sofortUngueltig": "Ein breiter, sentimentgetriebener Pullback (Range/Korrektur) mit RSI(2)<10-Extremen UEBER der 200-SMA und ohne Earnings-/Makro-/AI-Disruptions-Katalysator wuerde ein gueltiges MR-Long-Setup eroeffnen.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }

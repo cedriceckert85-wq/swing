@@ -3,3 +3,6 @@
 
 # Claude Code lokale Session-Daten (Crons/Settings) nicht versionieren
 .claude/
+
+# Laufzeit-Logs (z.B. orders_run.log) nicht versionieren
+*.log
