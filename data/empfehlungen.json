@@ -997,6 +997,108 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-23",
+      "zeit": "23:09",
+      "fuerHandelstag": "2026-06-24",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "range",
+        "zustand": "news",
+        "begruendung": "Breiter Tape rotational/Range (VIX 17,28; 299/500 S&P-Werte gruen, 7 Sektoren gruen, Russell 2000 erstmals 3.000; Indizes nur leicht im Minus), ABER scharfer NEWS-getriebener Bruch im Tech/KI/Halbleiter-Komplex: Nasdaq -1,3%, NVDA -4,1%, Micron -11,4%, SMH/SOXX -6,5%, KOSPI -9,99% - ausgeloest durch BofA-Zinserhoehungsnote + Korea-Regulierungssignale (Chip-Rally ueberhitzt) + AI-Bewertungszweifel. Genau die abverkauften Titel sind damit kontaminiert (Regel 3/8: News-Bruch = ROT, faden verboten)."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Alphabet (Google) A",
+          "ticker": "GOOGL",
+          "yahooSymbol": "GOOGL",
+          "richtung": "long",
+          "sektor": "Kommunikation/Tech",
+          "score": 40,
+          "extrem": {
+            "rsi2": 10.6,
+            "zScore": -1.8,
+            "atrAbstand": -1.85,
+            "bollinger": "nahe unteres"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 344.0,
+          "entryTyp": "limit",
+          "stop": 328.0,
+          "tp": 366.0,
+          "crv": 1.38,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "WARNSIGNAL: KI-Talent-Abgaenge (J. Jumper -> Anthropic) + heutiger Tech/KI-Sektorbruch; weicher Sentiment-Katalysator, kein sauberer technischer Dip",
+          "bullCase": "Qualitaets-Mega-Cap im Aufwaertstrend (+11% ueber 200-SMA), -6,3% 5-Tage-Pullback, Analysten Strong Buy (Ziel ~433); Rueckkehr zur 20-SMA (~368) plausibel.",
+          "bearCase": "Faellt in den heutigen news-getriebenen Tech/KI-Abverkauf; Sentiment-Katalysator (Talentflucht) statt reiner Ueberreaktion; RSI(2) 10,6 und Z -1,8 verfehlen die strikten Extrem-Schwellen (RSI<10 UND Z<=-2).",
+          "invalidation": "Schluss unter ~328 (1 ATR unter 5-Tage-Tief 340,20) = Trend-/Regimebruch statt Dip."
+        },
+        {
+          "rang": 2,
+          "aktie": "Netflix",
+          "ticker": "NFLX",
+          "yahooSymbol": "NFLX",
+          "richtung": "long",
+          "sektor": "Kommunikation",
+          "score": 20,
+          "extrem": {
+            "rsi2": 5.2,
+            "zScore": -2.11,
+            "atrAbstand": -3.65,
+            "bollinger": "unteres"
+          },
+          "trendFilter": "unter200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "FUNDAMENTALER BRUCH bestaetigt: Q2-Guidance-Miss (Umsatz 12,57 vs 12,63 Mrd; EPS 0,78 vs 0,84), verlorener Warner-Bros-Bieterkampf, Hastings-Abgang, Meta-Instagram-TV-Druck; 52-Wochen-Tief, -31% seit Split. Fallendes Messer -> faden verboten (Regel 3/8).",
+          "bullCase": "Statistisch extremstes Oversold im Universum (RSI(2) 5,2; Z -2,11; am unteren Bollinger); 37/50 Analysten Buy.",
+          "bearCase": "Unter 200-SMA (-25,6%), klarer Abwaertstrend; harter fundamentaler Katalysator -> Regimewechsel, kein Dip.",
+          "invalidation": "Kein Long unter 200-SMA bei aktivem fundamentalem Bruch; Setup per Definition ungueltig (Regel 2 + 8)."
+        },
+        {
+          "rang": 3,
+          "aktie": "Bank of America",
+          "ticker": "BAC",
+          "yahooSymbol": "BAC",
+          "richtung": "short",
+          "sektor": "Finanzen",
+          "score": 40,
+          "extrem": {
+            "rsi2": 90.5,
+            "zScore": 1.67,
+            "atrAbstand": 3.21,
+            "bollinger": "nahe oberes"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Ueberkauft (RSI(2) 90,5; Z +1,67), aber im Aufwaertstrend (+11,8% ueber 200-SMA) -> Short gegen den Trend verboten (Regel 2).",
+          "bullCase": "(Short-These) Kurzfristig ueberkauft am oberen Bollinger.",
+          "bearCase": "(gegen Short) Stabiler Aufwaertstrend ueber 200-SMA, Finanzsektor fest; Short ins Momentum = gegen den Trend-Filter.",
+          "invalidation": "Short unter 200-SMA verboten; Setup ungueltig."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE fuer Handelstag Mi 24.06.2026. (0) Boot: reconcile-on-boot (Broker-Wahrheit: equity 100.000$, 0 Positionen, 0 offene Orders) + tick(full) geschrieben; journal.json bremseAktiv=false, 0 Trades. (1-3) 52 liquide US-Titel auf Schlusskursbasis (23.06.) gescreent (RSI(2)/Z-Score/Bollinger/ATR + 200-SMA-Trendfilter). KEIN Setup erfuellt das Doppel-Extrem (RSI(2)<10 UND |Z|>=2) MIT Trend-Filter-Deckung OHNE Katalysator: Die statistisch extremsten Oversolds (NFLX RSI2 5,2; ORCL 2,9; TSLA 13; NKE 12,5; MCD 22) liegen ALLE UNTER der 200-SMA (fallende Messer, Regel 2); die Ueberkauften (BAC 90,5; MRK 90,5; JNJ 84) liegen ALLE UEBER der 200-SMA (Short gegen Trend verboten). NFLX = harter fundamentaler Bruch (Q2-Miss + M&A-Verluste + Hastings-Abgang) -> Regimewechsel, faden verboten (Regel 8). Die abverkauften Semis (NVDA -4,1%, QCOM -8%, AVGO -3%) sind das Epizentrum des heutigen NEWS-Bruchs (BofA-Zinsnote, Korea-Chip-Rout -9,99%, AI-Bewertungszweifel) -> Regel 3/8 ROT. Einzige trend-konforme Oversold-Kandidatin GOOGL (RSI2 10,6 / Z -1,8) verfehlt beide Extrem-Schwellen und traegt einen Sentiment-Katalysator (KI-Talentflucht) am Tech-Bruch-Tag -> Score 40 (<70). FAZIT: 6. MR-No-Trade-Lauf in Folge seit V4-Umbau (16.06.) - keine erzwungene Untaetigkeit, sondern V4-Disziplin im Trend-/News-Regime. Ein gueltiges MR-Long-Setup braucht RSI(2)<10-Extreme UEBER der 200-SMA OHNE harten Katalysator in einem Range-Regime. Kapitalerhalt vor Aktivitaet (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Kauf fallender Messer (NFLX/ORCL/TSLA/NKE/MCD) trotz tiefster RSI(2)-Werte; kein Long unter der 200-SMA; kein Short gegen intakte Aufwaertstrends (BAC/MRK/JNJ); kein Fade des heutigen news-getriebenen Tech/KI/Halbleiter-Bruchs (NVDA/QCOM/AVGO).",
+          "scheitern": "Drehen einzelne abverkaufte Tech-/Software-Namen morgen zurueck, entgeht uns die Reversion - aber alle haben entweder einen Abwaertstrend oder einen frischen fundamentalen/News-Katalysator, also kein sauberes MR-Setup.",
+          "sofortUngueltig": "Ein breiter, sentimentgetriebener Pullback (Range/Korrektur) mit RSI(2)<10-Extremen UEBER der 200-SMA und ohne Earnings-/Makro-/News-Katalysator wuerde ein gueltiges MR-Long-Setup eroeffnen.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
