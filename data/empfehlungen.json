@@ -1099,6 +1099,108 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-24",
+      "zeit": "23:05",
+      "fuerHandelstag": "2026-06-25",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "range",
+        "zustand": "news",
+        "begruendung": "Breit modeste Erholung am 24.06. (S&P ~+0,3%, bessere Breite via Healthcare/Industrials, gestuetzt durch fallende Oel-/Anleiherenditen), ABER Tech/KI/Energie in news-/eventgetriebenen Zonen: Halbleiter weiter fragil nach -2,2% Nasdaq am 23.06.; VIX 19,49 erhoeht. UEBERGEORDNETES EVENT-RISIKO: Micron-Earnings nach Schluss 24.06. (Optionsmarkt ~17% Move) bewegt den ganzen Memory-/Chip-Komplex morgen, PCE-Inflationsdaten stehen an. Oel auf Mehrmonatstief (WTI 70,34$) durch Hormuz-Wiederoeffnung/US-Iran-Deeskalation."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Chevron",
+          "ticker": "CVX",
+          "yahooSymbol": "CVX",
+          "richtung": "long",
+          "sektor": "Energie",
+          "score": 45,
+          "extrem": {
+            "rsi2": 13.6,
+            "zScore": -2.06,
+            "atrAbstand": -2.69,
+            "bollinger": "unteres"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 171.0,
+          "entryTyp": "limit",
+          "stop": 166.0,
+          "tp": 183.0,
+          "crv": 2.4,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "WARNSIGNAL Sektor: Energie faellt wegen STRUKTURELLEM Oelpreisrutsch (WTI 70,34$ Mehrmonatstief - Hormuz-Wiederoeffnung, US-Iran-Deeskalation, Angebotsnormalisierung, Risikopraemie loest sich auf) -> fundamentaler, anhaltender Treiber, kein sauberer Dip (Regel 8). CVX-eigener Katalysator positiv (20-J-Microsoft-PPA, oelpreis-entkoppelt).",
+          "bullCase": "Klares statistisches Extrem (Z -2,06; 2,7 ATR unter 20-SMA; unter unterem Bollinger), ueber 200-SMA; CVX-Microsoft-Data-Center-Deal stuetzt; sauberes CRV ~2,4 zur 20-SMA (~183).",
+          "bearCase": "Energie-Schwaeche ist oelgetrieben und strukturell (Risikopraemie-Abbau laeuft weiter) -> potenziell fallendes Messer; nur +1,2% ueber 200-SMA (schwacher Trend, Stop ~166 liegt UNTER der 200-SMA); RSI(2) 13,6 verfehlt <10.",
+          "invalidation": "Schluss unter ~166 (1 ATR unter 5-Tage-Tief 170,86 und unter 200-SMA) = Oel-/Energie-Abwaertstrend bestaetigt, kein Dip."
+        },
+        {
+          "rang": 2,
+          "aktie": "Alphabet (Google) A",
+          "ticker": "GOOGL",
+          "yahooSymbol": "GOOGL",
+          "richtung": "long",
+          "sektor": "Kommunikation/Tech",
+          "score": 40,
+          "extrem": {
+            "rsi2": 9.6,
+            "zScore": -1.7,
+            "atrAbstand": -1.74,
+            "bollinger": "—"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Weicher Sentiment-Katalysator (KI-Talentabgaenge) + Tech/KI-Schwaeche; kein harter Bruch, aber RSI(2) 9,6 ist die EINZIGE erfuellte Extrembedingung (Z -1,7 und Bollinger verfehlt) -> Regel 1 (>=2 Bedingungen) nicht erfuellt.",
+          "bullCase": "Tiefes RSI(2) 9,6 in starkem Aufwaertstrend (+10,5% ueber 200-SMA), -7,5% 5-Tage-Pullback, Analysten Strong Buy.",
+          "bearCase": "Z -1,7 und Bollinger verfehlen die Extrem-Schwelle; Titel im weichen Tech/KI-Sentiment-Abwind; Micron-Event + PCE als uebergeordnetes Risiko.",
+          "invalidation": "Kein gueltiges Doppel-Extrem -> kein Setup; Schluss unter ~328 waere Trendbruch."
+        },
+        {
+          "rang": 3,
+          "aktie": "Home Depot",
+          "ticker": "HD",
+          "yahooSymbol": "HD",
+          "richtung": "short",
+          "sektor": "Konsum/Einzelhandel",
+          "score": 40,
+          "extrem": {
+            "rsi2": 84.4,
+            "zScore": 2.16,
+            "atrAbstand": 2.34,
+            "bollinger": "oberes"
+          },
+          "trendFilter": "unter200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Ueberkaufter Spike (Z +2,16, ueber oberem Bollinger, unter 200-SMA) - aber der Tagessprung ist KATALYSATORGETRIEBEN (Housing-Lock-in/Renovierungs-Narrativ + Pro-Contractor-Pivot/SRS) -> bullische These, kein sauberer Fade (Regel 8). RSI(2) 84,4 verfehlt zudem >90.",
+          "bullCase": "(Short-These) Z +2,16 ueber oberem Bollinger, unter 200-SMA (-2,8%) -> Trend-Filter formal gedeckt.",
+          "bearCase": "(gegen Short) Spike fundamental/sentimentgetrieben (Housing-Lock-in, Pro-Pivot); nur -2,8% unter 200-SMA (schwacher Abwaertstrend); RSI(2) 84,4 < 90.",
+          "invalidation": "Short gegen bullischen Katalysator bei RSI(2)<90 = kein sauberes Setup."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE fuer Handelstag Do 25.06.2026. (0) Boot: reconcile-on-boot (equity 100.000$, 0 Positionen, 0 Orders) + tick(full); journal bremseAktiv=false, 0 Trades. (1-3) 52 liquide US-Titel auf Schlusskursbasis (24.06.) gescreent. KEIN Setup erfuellt das strikte Doppel-Extrem (RSI(2)<10 UND |Z|>=2) MIT Trend-Filter OHNE Katalysator: Beste Long-Kandidatin CVX (Z -2,06; 2,7 ATR + unter Bollinger) ist oel-/energiegetrieben - WTI faellt auf Mehrmonatstief 70,34$ wegen Hormuz-Wiederoeffnung/US-Iran-Deeskalation/Angebotsnormalisierung (STRUKTURELLER Treiber, Regel 8) und steht nur +1,2% ueber der 200-SMA (Stop laege unter ihr). GOOGL (RSI 9,6) erfuellt nur EINE Extrembedingung (Z -1,7 verfehlt). Die tiefsten Oversolds (ORCL 1,5; NFLX 3,1; NKE 8,3; TSLA 9,1) liegen ALLE unter der 200-SMA (fallende Messer, Regel 2). Ueberkaufte (GE 94,4; MRK 93; JNJ 88; V 87) liegen ALLE ueber der 200-SMA (Short verboten); einzige unter-200-SMA-Ueberkaufte HD (Z +2,16) hat RSI 84,4<90 und einen bullischen Katalysator (Housing-Lock-in/Pro-Pivot) -> kein Fade. (Event) Micron-Earnings nach Schluss 24.06. -> Halbleiterkomplex (NVDA/AMD/AVGO/QCOM/MU/SMH) gapt morgen (Optionsmarkt ~17% Move) + PCE-Daten anstehend; VIX 19,49 -> Halbleiter/Tech event-getrieben, faden verboten (Regel 3/8). (2) Regime: breit modeste Erholung (24.06. +0,3%, bessere Breite), aber Tech/KI/Energie news-/eventgetrieben. FAZIT: 7. MR-No-Trade-Lauf in Folge seit V4-Umbau (16.06.) - V4-Disziplin im Trend-/News-/Event-Regime. Ein gueltiges MR-Long braucht RSI(2)<10-Extreme UEBER der 200-SMA OHNE harten Katalysator in einem Range-Regime. Kapitalerhalt vor Aktivitaet (Regel 15).",
+        "abschluss": {
+          "vorteil": "Kein Fade des oelgetriebenen Energie-Abschwungs (CVX) trotz statistischem Extrem; kein Kauf fallender Messer (ORCL/NFLX/NKE/TSLA) unter 200-SMA; kein Short gegen Aufwaertstrends (GE/MRK/JNJ) bzw. gegen HDs bullischen Katalysator; kein Blindflug durch Micron-Earnings/PCE im Halbleiter-/Tech-Komplex.",
+          "scheitern": "Stabilisiert sich Oel und dreht CVX zur 20-SMA (~183), entgeht uns ein ~2,4-CRV-Trade - aber der Oelpreisrutsch ist strukturell (Risikopraemie-Abbau) und CVX nur knapp ueber der 200-SMA, also kein sauberes Dip-Setup.",
+          "sofortUngueltig": "Ein breiter sentimentgetriebener Pullback mit RSI(2)<10-Extremen klar UEBER der 200-SMA (z.B. CVX mit RSI<10 bei stabilisiertem Oel, oder GOOGL mit Z<=-2) ohne harten/strukturellen Katalysator wuerde ein gueltiges MR-Long eroeffnen.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
