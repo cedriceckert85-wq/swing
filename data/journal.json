@@ -4,7 +4,25 @@
     "risikoProTradeUsd": 1000,
     "hinweis": "Paper-Trading (Alpaca-Konto, 100.000 $). R-Multiple-Logik: 1R = 1.000 $ Risiko (1 % des Kontos), Positionsgroesse folgt aus der Stop-Distanz. Umstellung 12.06.2026 auf Nutzerwunsch (vorher 10.000/100)."
   },
-  "trades": [],
+  "trades": [
+    {
+      "id": "T-003",
+      "datumEmpfehlung": "2026-06-25",
+      "aktie": "Apple",
+      "ticker": "AAPL",
+      "yahooSymbol": "AAPL",
+      "richtung": "long",
+      "entryTyp": "limit",
+      "entry": 276.0,
+      "stop": 266.0,
+      "tp": 299.0,
+      "crv": 2.3,
+      "score": 85,
+      "maxHaltezeitTage": 3,
+      "status": "wartet",
+      "katalysator": "Mean-Reversion: RSI(2) 1,1 + Z -2,55 + unter unterem Bollinger (3,1 ATR unter 20-SMA), ueber 200-SMA; Reversionsziel 20-SMA ~299. Ausloeser: -6,1% Ueberreaktion auf Mac/iPad-Preiserhoehungen (Memory-Kosten), iPhone unveraendert - kein fundamentaler Bruch."
+    }
+  ],
   "statistik": {
     "trades": 0,
     "gewonnen": 0,

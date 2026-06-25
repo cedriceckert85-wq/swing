@@ -1201,6 +1201,108 @@
           "fondsUrteil": "NEIN"
         }
       }
+    },
+    {
+      "datum": "2026-06-25",
+      "zeit": "23:05",
+      "fuerHandelstag": "2026-06-26",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "range",
+        "zustand": "normal",
+        "begruendung": "Breit Range/flach am 25.06. (S&P -0,01% auf 7.357, Nasdaq -0,46%); RISIKO-APPETIT zurueck: Micron-Blowout (EPS 25,11 vs 20,78; Guidance 50 Mrd) hebt Halbleiter stark (QCOM +14%, SMH/SOXX gruen) -> AI-Investitionszyklus 'intakt', das 23./24.06.-News-Event ist AUFGELOEST. Belastung konzentriert auf Mag7-Hardware: Apple -6,1% / Microsoft -3,2% wegen Preiserhoehungen (Memory-Kostendruck). Uebergeordnet: PCE-Inflationsdaten am 26.06."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Apple",
+          "ticker": "AAPL",
+          "yahooSymbol": "AAPL",
+          "richtung": "long",
+          "sektor": "Technologie/Hardware",
+          "score": 85,
+          "extrem": {
+            "rsi2": 1.1,
+            "zScore": -2.55,
+            "atrAbstand": -3.12,
+            "bollinger": "unteres"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 276.0,
+          "entryTyp": "limit",
+          "stop": 266.0,
+          "tp": 299.0,
+          "crv": 2.3,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "KEIN harter Bruch (kein Miss/Cut/Downgrade/Fraud, Regel 8): -6,1% ist Reaktion auf Mac (+15-20%)/iPad (+15-25%) Preiserhoehungen wegen Memory-Kosten ('hundred-year flood'); iPhone/Watch/AirPods (Kernumsatz) UNVERAENDERT -> Kosten-Weitergabe, margenschuetzend. Gene Munster (Deepwater) nennt die Reaktion explizit UEBERREAKTION (17% Mac-Preis != 5% EV-Verlust). Konsens Buy, Ziel ~313. RESERVIERUNG: Memory-Kostentreiber strukturell, iPhone-Erhoehung evtl. spaeter, KGI-Downgrade vor 3 Tagen, PCE morgen.",
+          "bullCase": "Auessergewoehnliches statistisches Extrem (RSI(2) 1,1 ~ 1-in-100-Tage; Z -2,55; unter unterem Bollinger; 3,1 ATR unter 20-SMA) in INTAKTEM Aufwaertstrend (ueber 200-SMA). Ausloeser ist Sentiment (demand-destruction-Angst) auf eine Kosten-Weitergabe, kein fundamentaler Bruch; Kernprodukt iPhone unberuehrt. Reversion zur 20-SMA (~299) = ~3R; CRV 2,3.",
+          "bearCase": "Memory-Kostendruck ist strukturell/anhaltend (Micron-Superzyklus); 'demand destruction' koennte real werden, falls iPhone-Preise folgen; nur +2,4% ueber 200-SMA (duenner Trendpuffer); PCE-Daten 26.06. = Makro-Gap-Risiko am Einstiegstag. Bricht der 200-SMA, ist es ein Trend, kein Dip.",
+          "invalidation": "Schluss unter ~266 (1 ATR unter Tagestief 273,75 und unter der 200-SMA 268,83) = Aufwaertstrend gebrochen -> Trend statt Dip, Stop."
+        },
+        {
+          "rang": 2,
+          "aktie": "Alphabet (Google) A",
+          "ticker": "GOOGL",
+          "yahooSymbol": "GOOGL",
+          "richtung": "long",
+          "sektor": "Kommunikation/Tech",
+          "score": 40,
+          "extrem": {
+            "rsi2": 7.0,
+            "zScore": -1.69,
+            "atrAbstand": -1.7,
+            "bollinger": "—"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Weiche Tech/KI-Schwaeche; RSI(2) 7,0 stark, aber Z -1,69 und Bollinger verfehlen -> Regel 1 (>=2 Bedingungen) nicht voll erfuellt; AAPL ist das klar bessere Extrem.",
+          "bullCase": "Tiefes RSI(2) 7,0 in starkem Aufwaertstrend (+9,8% ueber 200-SMA).",
+          "bearCase": "Z -1,69 verfehlt die -2-Schwelle; kein unteres Bollinger-Tag; zweitbeste Wahl hinter AAPL.",
+          "invalidation": "Kein vollstaendiges Doppel-Extrem; ein Schluss unter 200-SMA waere Trendbruch."
+        },
+        {
+          "rang": 3,
+          "aktie": "Merck",
+          "ticker": "MRK",
+          "yahooSymbol": "MRK",
+          "richtung": "short",
+          "sektor": "Pharma",
+          "score": 40,
+          "extrem": {
+            "rsi2": 98.0,
+            "zScore": 2.73,
+            "atrAbstand": 2.38,
+            "bollinger": "oberes"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 0,
+          "entryTyp": "limit",
+          "stop": 0,
+          "tp": 0,
+          "crv": 0,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "Extrem ueberkauft (RSI(2) 98, Z +2,73, ueber oberem Bollinger), ABER +19,9% UEBER der 200-SMA (starker Aufwaertstrend) -> Short gegen den Trend verboten (Regel 2). Defensives Healthcare bei Risk-on-Rotation gefragt.",
+          "bullCase": "(Short-These) Statistisch extrem ueberkauft am oberen Bollinger.",
+          "bearCase": "(gegen Short) Klarer Aufwaertstrend +19,9% ueber 200-SMA; Healthcare-Staerke; Short ins Momentum = gegen Trend-Filter.",
+          "invalidation": "Short ueber 200-SMA verboten; Setup ungueltig."
+        }
+      ],
+      "empfehlung": {
+        "trade": true,
+        "tradeId": "T-003",
+        "begruendung": "TRADE: AAPL Long (T-003), Limit 276, Stop 266, Ziel 299 (20-SMA), CRV 2,3, max 3 Tage, Risiko 1R. (0) Boot: reconcile (equity 100.000$, 0 Pos, 0 Orders) + tick(full); bremseAktiv=false. (3) 52 US-Titel auf Schluss 25.06. gescreent: AAPL ist das EINZIGE Setup, das ALLE Gates erfuellt - RSI(2) 1,1 (~1-in-100-Tage), Z -2,55, unter unterem Bollinger, 3,1 ATR unter 20-SMA UND ueber 200-SMA (+2,4%). (1/8) Katalysator-Check: Der -6,1%-Abverkauf kommt von Mac/iPad-Preiserhoehungen (Memory-Kosten) - eine Kosten-WEITERGABE, KEIN Miss/Cut/Downgrade/Fraud (Regel 8); iPhone-Kernumsatz unveraendert; ein renommierter Analyst (Munster) nennt es Ueberreaktion -> sentimentgetriebener Dip, kein fundamentaler Bruch. (4) Score 85 (Regime+Extrem+Trend+Ziel/Stop voll, leichte Reservierung wegen strukturellem Memory-Kostentrend + PCE 26.06.). (5) Dip-oder-Trendbruch: DIP - Ueberreaktion auf Kosten-Weitergabe in intaktem Aufwaertstrend; Invalidation klar am 200-SMA-Bruch (266). Fonds-Urteil JA: Quality-Mega-Cap, Extrem nahe Rekord, Kernprodukt unberuehrt, CRV 2,3, Risiko hart 1R. Die uebrigen tiefen Oversolds (ORCL 0,9; NFLX 1,7; NKE 4,0; META 4,4; MSFT 8,5) liegen ALLE unter der 200-SMA (fallende Messer); die Ueberkauften (MRK 98; GE 97; JNJ 94; CAT 89) liegen ALLE ueber der 200-SMA (Short verboten). (2) Regime: Range/Risk-on (Micron-Blowout loest das Chip-Event auf), Belastung nur in Mag7-Hardware. Position-Sizing/Order via Risk-Gate (alpaca_sync.py) aus der Stop-Distanz - nicht von Hand.",
+        "abschluss": {
+          "vorteil": "Faden eines aussergewoehnlichen RSI(2)-1,1-Extrems in einem Titel, dessen Aufwaertstrend intakt ist und dessen Abverkauf aus einer Kosten-Weitergabe (kein fundamentaler Bruch) stammt; iPhone-Kernumsatz unberuehrt; sauberes CRV 2,3 mit hartem 1R-Stop am 200-SMA und 3-Tage-Limit.",
+          "scheitern": "Wird der Memory-Kostendruck zum echten Margen-/Nachfrageproblem (iPhone-Erhoehung folgt) oder kippt ein heisser PCE-Print am 26.06. den breiten Markt, bricht AAPL die 200-SMA und der Stop (266) greift - Verlust auf 1R begrenzt (Gap-Risiko am PCE-Tag beachtet).",
+          "sofortUngueltig": "Schluss unter 266 (200-SMA-Bruch) = Trend statt Dip; ebenso ein Earnings-/Guidance-/Downgrade-Schock waehrend der Haltezeit.",
+          "fondsUrteil": "JA"
+        }
+      }
     }
   ]
 }
