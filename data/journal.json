@@ -19,27 +19,32 @@
       "crv": 2.3,
       "score": 85,
       "maxHaltezeitTage": 3,
-      "status": "offen",
+      "status": "zeit_exit",
       "katalysator": "Mean-Reversion: RSI(2) 1,1 + Z -2,55 + unter unterem Bollinger (3,1 ATR unter 20-SMA), ueber 200-SMA; Reversionsziel 20-SMA ~299. Ausloeser: -6,1% Ueberreaktion auf Mac/iPad-Preiserhoehungen (Memory-Kosten), iPhone unveraendert - kein fundamentaler Bruch.",
       "log": [
         "Alpaca: Order nicht platziert (max_notional (27600>8000)) -> Yahoo-Simulation",
         "Alpaca: Risk-Gate nicht erreichbar -> Yahoo-Simulation",
         "Alpaca: Risk-Gate nicht erreichbar -> Yahoo-Simulation",
-        "2026-06-26 Entry-Fill 275.00"
+        "2026-06-26 Entry-Fill 275.00",
+        "2026-06-30 Zeit-Exit zu 289.36"
       ],
       "entryFill": 275.0,
-      "entryDatum": "2026-06-26"
+      "entryDatum": "2026-06-26",
+      "exitDatum": "2026-06-30",
+      "exitKurs": 289.36,
+      "ergebnisR": 1.6,
+      "pnlEur": 1600.0
     }
   ],
   "statistik": {
-    "trades": 0,
-    "gewonnen": 0,
+    "trades": 1,
+    "gewonnen": 1,
     "verloren": 0,
     "verfallen": 0,
-    "offen": 1,
-    "trefferquote": null,
-    "summeR": 0,
-    "erwartungswertR": null,
+    "offen": 0,
+    "trefferquote": 100.0,
+    "summeR": 1.6,
+    "erwartungswertR": 1.6,
     "profitFactor": null,
     "aktuelleVerlustserie": 0,
     "groessteVerlustserie": 0,
