@@ -1303,6 +1303,108 @@
           "fondsUrteil": "JA"
         }
       }
+    },
+    {
+      "datum": "2026-07-03",
+      "zeit": "23:05",
+      "fuerHandelstag": "2026-07-06",
+      "strategie": "mean-reversion",
+      "regime": {
+        "richtung": "trend",
+        "zustand": "hochvol",
+        "begruendung": "Starker Aufwaerts-Melt-up statt Range: S&P 500 ~7.498 (Schluss 03.07., +20% YoY), Dow auf Rekord (~52.844, +1,03% am 02.07., gefuehrt von AAPL +4,8% / MCD / DIS). Breite EXTREM ueberkauft: im 56er-Screen stehen V (RSI2 99,6/z+2,86), MA (99,2/+3,04), XLF (97,3/+2,42), MRNA (99,5), JNJ (90), ABBV (92), KO (89,5) ALLE ueber ihrer 200-SMA = nicht shortbar (Trend-Filter), zugleich nicht long-fadebar (ueberkauft). S&P-RSI ~70, Research warnt explizit vor 'high volatility / shake-outs' nach den Rekordstaenden. Fuer Mean-Reversion ist das ein 'Signale unterdruecken'-Umfeld (Regel 3): in einem starken Trend bleiben Kurse laenger extrem als erwartet. Zusatz: 03.07. war US-Feiertag (NYSE zu, Independence Day), Ziel-Handelstag Mo 06.07. nach duennem Feiertagshandel."
+      },
+      "kandidaten": [
+        {
+          "rang": 1,
+          "aktie": "Cisco Systems",
+          "ticker": "CSCO",
+          "yahooSymbol": "CSCO",
+          "richtung": "long",
+          "sektor": "Technologie/Networking",
+          "score": 60,
+          "extrem": {
+            "rsi2": 9.2,
+            "zScore": -1.99,
+            "atrAbstand": 1.77,
+            "bollinger": "-"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 112.5,
+          "entryTyp": "limit",
+          "stop": 109.0,
+          "tp": 119.72,
+          "crv": 2.06,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "NICHT sauber: Ruecksetzer auf aktiv ausgenutztem Zero-Day CVE-2026-20245 (Catalyst SD-WAN) + WARN-Act-Sammelklage-Pruefung nach Stellenabbau; Analysten aber weiter bullish (KeyBanc OW, Ziel 130). Kein Earnings-/Guidance-Bruch, aber genug harte Negativ-News, dass der +20-Pillar 'kein fundamentaler Bruch' NICHT vergeben wird.",
+          "bullCase": "RSI(2) 9,2 tief ueberverkauft in intaktem Aufwaertstrend (33% ueber 200-SMA 84,91), Analysten-Konsens bullish, CVE/Layoff sind Sentiment-Headlines statt Ertragsbruch -> Ueberreaktion, Rueckkehr zur 20-SMA (119,72) plausibel.",
+          "bearCase": "z nur -1,99 (kein klares <=-2), Bollinger-Unterband NICHT beruehrt, macht am 02.07. ein tieferes Tief (112,69 < 26.06. 113,77) -> Dip laeuft noch, kein Reversal bestaetigt; Gesamtmarkt ueberkauft mit Shake-out-Warnung, duenner Feiertags-Montag.",
+          "invalidation": "Schluss unter dem juengsten Swing-Tief (~111,90) bzw. Stop 109 = Dip wird Trend."
+        },
+        {
+          "rang": 2,
+          "aktie": "Qualcomm",
+          "ticker": "QCOM",
+          "yahooSymbol": "QCOM",
+          "richtung": "long",
+          "sektor": "Halbleiter",
+          "score": 40,
+          "extrem": {
+            "rsi2": 2.7,
+            "zScore": -1.78,
+            "atrAbstand": 1.84,
+            "bollinger": "-"
+          },
+          "trendFilter": "ueber200SMA",
+          "entry": 176.0,
+          "entryTyp": "limit",
+          "stop": 168.0,
+          "tp": 205.55,
+          "crv": 3.69,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "HARTER Katalysator -> FADEN VERBOTEN (Regel 3+8): Analysten-Downgrades auf Hold (01.-02.07. nach Investor Day; Marge-/Execution-Risiko beim Schwenk Smartphone -> AI-Data-Center), Modular-Uebernahme = bis 19,2 Mio neue Aktien (Verwaesserung), Rauswurf aus mehreren Russell-Indizes (Zwangsverkaeufe), Musk dementiert SpaceX-Snapdragon-Handy (01.07.).",
+          "bullCase": "RSI(2) 2,7 ist ein aussergewoehnliches Extrem; technisch noch knapp ueber 200-SMA (168,36).",
+          "bearCase": "8 Handelstage Abverkauf von ~233 (22.06.) auf 176 (-22%) nach Blow-off-Top mit hohem Volumen = fallendes Messer; harter fundamentaler/technischer Regimewechsel, nicht Dip.",
+          "invalidation": "Kein Setup - Katalysator disqualifiziert (Miss/Downgrade/Dilution)."
+        },
+        {
+          "rang": 3,
+          "aktie": "PayPal",
+          "ticker": "PYPL",
+          "yahooSymbol": "PYPL",
+          "richtung": "short",
+          "sektor": "Finanzdienstleistungen/Payments",
+          "score": 40,
+          "extrem": {
+            "rsi2": 86.5,
+            "zScore": 2.35,
+            "atrAbstand": 2.08,
+            "bollinger": "oberes"
+          },
+          "trendFilter": "unter200SMA",
+          "entry": 45.47,
+          "entryTyp": "limit",
+          "stop": 47.0,
+          "tp": 42.56,
+          "crv": 1.9,
+          "haltezeit": "1-3 Tage",
+          "katalysatorCheck": "POSITIVER fundamentaler Katalysator -> STAERKE SHORTEN VERBOTEN (Regel 8): Buy-Upgrade, 1,5 Mrd $ Kostenprogramm, 6 Mrd $ Aktienrueckkauf (persistenter Bid) + neue Dividende, Agentic-Commerce mit OpenAI/Google. Re-Rating eines guenstigen Value-Titels (Forward-KGV ~9), kein fadebarer Spike. Zusaetzlich Gate allow_short=false.",
+          "bullCase": "RSI(2) 86,5 + z +2,35 am oberen Bollinger unter der 200-SMA (53,77) = formal ueberkaufter Spike im Abwaertstrend.",
+          "bearCase": "Der Spike ist fundamental unterlegt (Buyback/Upgrade), macht neue Kurz-Hochs (45,47) mit Volumen-Spike am 26.06. -> Short-Squeeze-/Weiterlauf-Risiko; genau die 'Staerke', die Regel 8 nicht faden laesst.",
+          "invalidation": "Kein Setup - positiver Katalysator + Short-Gate."
+        }
+      ],
+      "empfehlung": {
+        "trade": false,
+        "tradeId": null,
+        "begruendung": "HEUTE KEIN TRADE fuer Handelstag Mo 06.07.2026. (0) Boot: reconcile-on-boot (equity 100.000$, 0 Positionen, 0 offene Orders) + tick(full); Journal bremseAktiv=false, 0 offene Trades (T-003 AAPL zeit_exit +1,6R). (Screen auf Basis Close Do 02.07.; Fr 03.07. NYSE-Feiertag.) (1) Regime: starker Aufwaerts-Melt-up, breit EXTREM ueberkauft (V/MA/XLF/JNJ/ABBV/MRNA alle RSI2>90 ueber 200-SMA -> weder shortbar noch long-fadebar), S&P-RSI ~70 mit Shake-out-Warnung = MR-'Signale unterdruecken'. (2) Von 56 liquiden Titeln ueberstehen nur 3 den Trend-Filter, und alle 3 fallen am Katalysator-/Score-Gate: CSCO (long, Rang1) bester Dip (RSI2 9,2, ueber 200-SMA), aber z nur -1,99, Bollinger nicht beruehrt, tieferes Tief am 02.07., und Katalysator NICHT sauber (aktiv ausgenutzter Zero-Day CVE-2026-20245 + WARN-Sammelklage-Pruefung) -> Score 60 (<70). QCOM (long) RSI2 2,7 extrem, aber -22% in 8 Tagen nach Blow-off-Top mit Downgrades/Modular-Verwaesserung/Russell-Rauswurf = fallendes Messer, FADEN VERBOTEN (Score 40). PYPL (short) RSI2 86,5 am oberen Band unter 200-SMA, aber +15%-Rallye ist fundamental (Buyback 6 Mrd/Upgrade/Kostenprogramm) -> Staerke shorten verboten + Gate allow_short=false (Score 40). (3) Kein Kandidat erreicht Score>=80 UND Fonds-JA -> Kapitalerhalt vor Aktivitaet (Regel 15). Position-Sizing/Order via Risk-Gate (alpaca_sync.py) - nicht von Hand; heute nichts zu buchen.",
+        "abschluss": {
+          "vorteil": "Sauberes No-Trade: die einzigen statistischen Extreme, die den Trend-Filter ueberstehen, sind entweder fallende Messer mit hartem Katalysator (QCOM) oder fundamental unterlegte Staerke (PYPL); der einzige echte Dip (CSCO) ist katalysator-unsauber und nur borderline-extrem. In einem breit ueberkauften Melt-up ist Nichthandeln die regelkonforme Entscheidung.",
+          "scheitern": "Falls CSCO Mo 06.07. sauber zur 20-SMA (119,72) dreht, wurde ein ~2R-Long ausgelassen - akzeptabel, weil Score 60 (<70) und Katalysator-Pillar nicht erfuellt; Disziplin vor entgangenem Gewinn.",
+          "sofortUngueltig": "Kein offener Trade -> keine laufende Invalidation. Neues Setup erst, wenn ein Extrem den Trend-Filter UND einen sauberen Katalysator-Check (kein Bruch) mit Score>=80 besteht.",
+          "fondsUrteil": "NEIN"
+        }
+      }
     }
   ]
 }
